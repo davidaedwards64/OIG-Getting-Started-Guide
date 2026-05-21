@@ -27,9 +27,7 @@ For example Salesforce has a range of entitlements - Feature Licenses,
 Permission Sets, Profile, Public Groups, Role. The app integration will
 store these for existing users in various attributes.
 
-<img
-src="../media/image22.png"
-style="width:6.925in;height:1.01042in" /><img
+<img src="../media/image22.png" width="100%" /><img
 src="../media/image54.png"
 style="width:6.925in;height:2.19792in" /><img
 src="../media/image119.png"
@@ -86,9 +84,7 @@ The example users are:
 These will appear in the screenshots below. They have been assigned to
 the app, either individually or via the group.
 
-<img
-src="../media/image113.png"
-style="width:7in;height:4.84722in" />
+<img src="../media/image113.png" width="100%" />
 
 You can use any of the users in your test system.
 
@@ -116,16 +112,12 @@ will check that it is not enabled.
 1.  Go into the application and go to the **<u>Provisioning</u>** tab.
     Confirm it is not enabled.
 
-> <img
-> src="../media/image148.png"
-> style="width:6.48125in;height:3.32743in" />
+> <img src="../media/image148.png" width="100%" />
 
 2.  Go to the **<u>General</u>** tab and confirm that **Entitlement
     management** is disabled.
 
-> <img
-> src="../media/image201.png"
-> style="width:6.47292in;height:2.5333in" />
+> <img src="../media/image201.png" width="100%" />
 
 #### Enable Entitlement Management for the App
 
@@ -141,9 +133,7 @@ As we saw with the dummy app earlier, you first get a message saying
 entitlement management is being enabled, then it shows as Enabled with a
 green dot.
 
-<img
-src="../media/image168.png"
-style="width:7in;height:0.93056in" />
+<img src="../media/image168.png" width="100%" />
 
 To confirm:
 
@@ -152,9 +142,7 @@ To confirm:
 7.  Confirm that you see all the tabs: Entitlements, Bundles, Policy,
     Separation of duties rules and Owners.
 
-<img
-src="../media/image197.png"
-style="width:7in;height:1.08333in" />
+<img src="../media/image197.png" width="100%" />
 
 The last thing to do is to enable provisioning.
 
@@ -167,9 +155,7 @@ the instructions in
 
 8.  Enable provisioning as per the docs and confirm it’s been enabled.
 
-> <img
-> src="../media/image230.png"
-> style="width:6.47292in;height:6.07799in" />
+> <img src="../media/image230.png" width="100%" />
 
 9.  Turn on **Create Users** and **Update User Attributes** in the **To
     App** section.
@@ -177,9 +163,7 @@ the instructions in
 10. When saved, you should see a message indicating that the Governance
     Engine has been enabled.
 
-> <img
-> src="../media/image167.png"
-> style="width:6.48125in;height:5.12135in" />
+> <img src="../media/image167.png" width="100%" />
 
 You can now go confirm the entitlements have been imported.
 
@@ -194,9 +178,7 @@ To see them:
 
 2.  Select the **<u>Entitlements</u>** tab.
 
-> <img
-> src="../media/image80.png"
-> style="width:6.48125in;height:6.16297in" />
+> <img src="../media/image80.png" width="100%" />
 >
 > Note the messages displayed. The first is encouraging the creation of
 > bundles as we did earlier. The second is saying that the entitlements
@@ -212,16 +194,12 @@ To see them:
 4.  Click on the ***Public Groups*** entitlement and confirm the groups
     you added in Salesforce are there.
 
-> <img
-> src="../media/image169.png"
-> style="width:6.47917in;height:4.60833in" />
+> <img src="../media/image169.png" width="100%" />
 
 5.  Click on ***Role*** and confirm the roles you had in Salesforce are
     there.
 
-> <img
-> src="../media/image267.png"
-> style="width:6.48919in;height:3.57292in" />
+> <img src="../media/image267.png" width="100%" />
 
 We’re now ready to create policies and bundles as we did earlier.
 
@@ -230,9 +208,7 @@ enabling provisioning. This includes the import events and a series of
 resource.entitlement.create or resource.entitlement.update events. For
 example:
 
-<img
-src="../media/image281.png"
-style="width:7in;height:5.69444in" />
+<img src="../media/image281.png" width="100%" />
 
 ### Create Entitlement Policy for Salesforce.com 
 
@@ -253,9 +229,7 @@ First we will create the ordinary users policy rule.
 1.  Create a new **Entitlement Policy Rule** in the Salesforce.com app
     for all users. Give it a name like “All Users”.
 
-> <img
-> src="../media/image116.png"
-> style="width:6.45625in;height:2.45952in" />
+> <img src="../media/image116.png" width="100%" />
 
 2.  Set the **IF User scope** clause to use Okta Expression Language and
     set it to user.profile.countryCode != 'AU'. You need a rule to catch
@@ -263,16 +237,12 @@ First we will create the ordinary users policy rule.
     this contradicts with data you have in your Universal Directory user
     profiles, you may need to use another.
 
-> <img
-> src="../media/image79.png"
-> style="width:6.47292in;height:2.22507in" />
+> <img src="../media/image79.png" width="100%" />
 
 3.  Set the **THEN Assign** clause to the ***Profile*** entitlement and
     the ***Chatter Free User*** value.
 
-> <img
-> src="../media/image36.png"
-> style="width:6.48125in;height:2.07361in" />
+> <img src="../media/image36.png" width="100%" />
 
 4.  You may want to use the Preview USer function to confirm your rule
     is correct.
@@ -287,32 +257,24 @@ rule just for the CEO (that will override the rule above).
 
 7.  In the **IF User Scope** clause select **Title** **Equals** CEO
 
-> <img
-> src="../media/image272.png"
-> style="width:6.4625in;height:3.66401in" />
+> <img src="../media/image272.png" width="100%" />
 
 8.  In the **THEN Assign** clause set the following two entitlements:
     **Role = *CEO*** and **Profile = *Force.com - Free User***.
 
-> <img
-> src="../media/image257.png"
-> style="width:6.47292in;height:2.42734in" />
+> <img src="../media/image257.png" width="100%" />
 
 9.  Use the **Preview User** function to confirm the rule picks up your
     CEO.
 
-> <img
-> src="../media/image260.png"
-> style="width:6.47292in;height:1.04992in" />
+> <img src="../media/image260.png" width="100%" />
 
 10. Click the **Save rule** button.
 
 > You should now have two rules, with the CEO rule on top (priority 1),
 > with the policy in Draft.
 >
-> <img
-> src="../media/image59.png"
-> style="width:6.45417in;height:2.3915in" />
+> <img src="../media/image59.png" width="100%" />
 >
 > The Priority setting is important. The more specific rules (like the
 > CEO one) should come before the more generic rules (like the All Users
@@ -326,38 +288,28 @@ rule just for the CEO (that will override the rule above).
 
 11. Click the **Apply policy** button to make the policy Active.
 
-> <img
-> src="../media/image26.png"
-> style="width:6.47708in;height:0.46875in" />
+> <img src="../media/image26.png" width="100%" />
 
 12. Go out of **<u>Governance</u>** and back to the
     **<u>Assignments</u>** tab for the application to see the users
     assigned.
 
-> <img
-> src="../media/image238.png"
-> style="width:6.47067in;height:5.16113in" />
+> <img src="../media/image238.png" width="100%" />
 
 13. Select a non-CEO user, click the menu icon (three vertical dots) and
     select the **View access details** item. You should see them
     assigned to the Chatter Free User entitlement.
 
-> <img
-> src="../media/image128.png"
-> style="width:3.63125in;height:2.16146in" />
+> <img src="../media/image128.png" width="100%" />
 
 14. Now check the entitlements for your CEO user. It should show both
     the Profile and the Role you specified.
 
-> <img
-> src="../media/image180.png"
-> style="width:3.64792in;height:2.70137in" />
+> <img src="../media/image180.png" width="100%" />
 
 15. You can check your users in Salesforce.
 
-> <img
-> src="../media/image138.png"
-> style="width:6.44404in;height:1.7024in" />
+> <img src="../media/image138.png" width="100%" />
 
 As discussed earlier, the policy evaluation is a background process so
 you may not see the entitlements added straight away. If you don’t see
@@ -379,15 +331,11 @@ We will create a single bundle to expose a role and profile combination.
     request the ***Channel Sales Team*** role and ***Force.com - Free
     User*** profile.
 
-> <img
-> src="../media/image8.png"
-> style="width:6.47238in;height:4.31492in" />
+> <img src="../media/image8.png" width="100%" />
 
 2.  Click the **Create** button to create the bundle.
 
-> <img
-> src="../media/image132.png"
-> style="width:6.46458in;height:3.22267in" />
+> <img src="../media/image132.png" width="100%" />
 
 We will use this in the Access Requests section later.
 

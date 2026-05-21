@@ -47,9 +47,7 @@ To add these groups as push groups:
 
 4.  Select and add the two groups as push groups.
 
-> <img
-> src="../media/image146.png"
-> style="width:6.48958in;height:3.75662in" />
+> <img src="../media/image146.png" width="100%" />
 
 5.  Go into the **Access Request UI** (go to **Identity Governance \>
     Access Requests** in the Admin Console or the Access Requests app on
@@ -59,9 +57,7 @@ To add these groups as push groups:
     there (they should appear very quickly as the push function runs as
     soon as they are added to the Push Groups for the app).
 
-> <img
-> src="../media/image212.png"
-> style="width:6.48542in;height:2.23958in" />
+> <img src="../media/image212.png" width="100%" />
 
 They are now ready to be used in a request type.
 
@@ -82,15 +78,11 @@ Now we will create the new request type.
 
 11. Select the **IT** Team.
 
-> <img
-> src="../media/image29.png"
-> style="width:4.48942in;height:4.69679in" />
+> <img src="../media/image29.png" width="100%" />
 
 12. Click on the **Audience** **\> Select and option** dropdown.
 
-> <img
-> src="../media/image173.png"
-> style="width:4.46655in;height:1.42903in" />
+> <img src="../media/image173.png" width="100%" />
 >
 > There are three options available:
 >
@@ -105,9 +97,7 @@ Now we will create the new request type.
 
 13. Click on the **Select an Okta group…** option.
 
-> <img
-> src="../media/image126.png"
-> style="width:4.47292in;height:1.95024in" />
+> <img src="../media/image126.png" width="100%" />
 >
 > The two push groups from above are shown.
 
@@ -119,9 +109,7 @@ Now we will create the new request type.
 15. Click the **Continue** button. This takes you to the request type
     editor page.
 
-> <img
-> src="../media/image252.png"
-> style="width:6.48125in;height:2.98022in" />
+> <img src="../media/image252.png" width="100%" />
 >
 > The options look similar to sequences in the earlier labs, with the
 > addition of Action (which will make sense when we look at it). We will
@@ -142,9 +130,7 @@ Now we will create the new request type.
 17. Provide a **Text** (label) and notice that it is added to the step
     in the flow.
 
-> <img
-> src="../media/image117.png"
-> style="width:6.48125in;height:2.36296in" />
+> <img src="../media/image117.png" width="100%" />
 
 18. Leave the **Make it a required field** on, this makes the field
     mandatory (notice the red asterisk beside the title in the flow).
@@ -158,9 +144,7 @@ Now we will create the new request type.
 21. Click the down arrow for the **Assigned to** field. There are
     multiple options.
 
-> <img
-> src="../media/image105.png"
-> style="width:2.7321in;height:2.59318in" />
+> <img src="../media/image105.png" width="100%" />
 >
 > If you recall from the conditions labs, when creating sequences you
 > have Questions for Requester and Question types. This is the same
@@ -179,18 +163,14 @@ Now we will create the new request type.
 > The initial landing page has gone away to be replaced by a row of step
 > types at the bottom of the editor page.
 >
-> <img
-> src="../media/image24.png"
-> style="width:6.47292in;height:0.655in" />
+> <img src="../media/image24.png" width="100%" />
 
 22. Click the **Question** button.
 
 23. Give the question a **Text** (label) of Primary Office and leave it
     as required.
 
-> <img
-> src="../media/image16.png"
-> style="width:6.48958in;height:3.91113in" />
+> <img src="../media/image16.png" width="100%" />
 >
 > This is to present a list of options in a dropdown list to someone
 > (the requester or someone else). These options could be text values or
@@ -198,9 +178,7 @@ Now we will create the new request type.
 
 24. Click the **Data source** down arrow to see the options.
 
-> <img
-> src="../media/image68.png"
-> style="width:1.97102in;height:1.78958in" />
+> <img src="../media/image68.png" width="100%" />
 >
 > There are two options:
 
@@ -221,9 +199,7 @@ Now we will create the new request type.
 26. Leave the **Multi-select?** option disabled (we only want a single
     value selected).
 
-> <img
-> src="../media/image67.png"
-> style="width:1.98958in;height:2.24516in" />
+> <img src="../media/image67.png" width="100%" />
 
 27. Leave the question **Assigned to** the requester.
 
@@ -236,9 +212,7 @@ the **Save draft** button on top of the editor page. To go back to it
 later, go to **Request Types \> Drafts** and click the **Edit Draft**
 button.
 
-<img
-src="../media/image74.png"
-style="width:6.43229in;height:2.95771in" />
+<img src="../media/image74.png" width="100%" />
 
 #### Add Approval Steps with Flow Logic
 
@@ -264,13 +238,9 @@ and using an Okta group for approvers.
     a time limit for approval and if the time limit expires, reminders
     will be sent via emails.
 
-> <img
-> src="../media/image255.png"
-> style="width:6.47396in;height:2.9865in" />
+> <img src="../media/image255.png" width="100%" />
 >
-> <img
-> src="../media/image255.png"
-> style="width:6.47396in;height:0.37572in" />
+> <img src="../media/image255.png" width="100%" />
 >
 > We have created an approval step, but need to define the conditions
 > where it will run. Notice there is a Logic tab at the top of the
@@ -282,9 +252,7 @@ and using an Okta group for approvers.
 33. Click the **Always show this task** option and replace it with the
     ***Only show this task if*** option.
 
-> <img
-> src="../media/image214.png"
-> style="width:2.49913in;height:1.5119in" />
+> <img src="../media/image214.png" width="100%" />
 >
 > The heritage of Access Requests is as an ITSM tool, thus the
 > terminology of “show” vs. “run” and “task” vs. “step”. This selection
@@ -293,9 +261,7 @@ and using an Okta group for approvers.
 34. In the **Field or task** field, click the dropdown and select
     ***Primary Office***.
 
-> <img
-> src="../media/image52.png"
-> style="width:2.48925in;height:2.27188in" />
+> <img src="../media/image52.png" width="100%" />
 >
 > This dropdown will list any preceding steps (not question steps) and
 > any questions that have been prompted for.
@@ -315,9 +281,7 @@ and using an Okta group for approvers.
 36. Click the **Select a value** field and select Head Office from the
     list.
 
-> <img
-> src="../media/image75.png"
-> style="width:2.48918in;height:3.33745in" />
+> <img src="../media/image75.png" width="100%" />
 >
 > This has been populated with the values for that dropdown we created
 > in an earlier step.
@@ -326,9 +290,7 @@ and using an Okta group for approvers.
     value selected earlier is “Head Office”. Note the bottom line in the
     step “Show if **Primary Office** is **Head Office**”.
 
-> <img
-> src="../media/image92.png"
-> style="width:6.48438in;height:2.71147in" />
+> <img src="../media/image92.png" width="100%" />
 >
 > The UI has some visual queues to show you how the logic is applied.
 > The step being referred to in the logic (i.e. the one selecting the
@@ -341,24 +303,18 @@ and using an Okta group for approvers.
     the **Assigned to** field, select ***An Okta group …*** and click
     the Exec group.
 
-> <img
-> src="../media/image270.png"
-> style="width:6.48438in;height:3.30973in" />
+> <img src="../media/image270.png" width="100%" />
 
 39. Go to the **<u>Logic</u>** tab and set logic to be ***Only show this
     task if Primary Office is not Head Office***.
 
-> <img
-> src="../media/image292.png"
-> style="width:6.48438in;height:3.42553in" />
+> <img src="../media/image292.png" width="100%" />
 >
 > Did you notice when you went to select Primary Office, there was an
 > additional option of Manager Approval for HO Employees with a tick
 > beside it? This is saying you could make this step cond
 >
-> <img
-> src="../media/image103.png"
-> style="width:2.48438in;height:1.32385in" />
+> <img src="../media/image103.png" width="100%" />
 >
 > This is saying you could make this step conditional on the previous
 > step. This is how we set up multi-level approvals with the second
@@ -372,9 +328,7 @@ and using an Okta group for approvers.
 40. Check that you have set up the conditions correctly and the step
     shows “Show if **Primary Office** is not **Head Office**”.
 
-> <img
-> src="../media/image17.png"
-> style="width:6.48438in;height:3.40623in" />
+> <img src="../media/image17.png" width="100%" />
 
 We now have questions and approvers defined. The last step is to
 actually grant the access. We didn’t need to do this with Request
@@ -387,9 +341,7 @@ Conditions as we were attaching the condition to a specific resource
     click the ***Other Okta actions*** to see the complete list of Okta
     connection actions.
 
-> <img
-> src="../media/image243.png"
-> style="width:6.49479in;height:1.32409in" />
+> <img src="../media/image243.png" width="100%" />
 >
 > These are the actions that are defined for the Okta integration with
 > Access Requests, i.e. the things that the Access Requests Platform can
@@ -408,18 +360,14 @@ Conditions as we were attaching the condition to a specific resource
 44. Leave the **Type** (that’s what you selected above) and enable the
     **Run automatically?** option.
 
-> <img
-> src="../media/image278.png"
-> style="width:6.47917in;height:3.64235in" />
+> <img src="../media/image278.png" width="100%" />
 
 45. In the expanded section, for **Email address** select ***Requester’s
     email address***. In the **Select the entitlement bundle** field,
     select Entitlement bundles and select the entitlement bundle you
     want to assign to the user.
 
-> <img
-> src="../media/image289.png"
-> style="width:4.59553in;height:5.52188in" />
+> <img src="../media/image289.png" width="100%" />
 >
 > The entitlement bundle list includes the name and description of the
 > entitlement bundle (and the tooltip also includes the description).
@@ -446,9 +394,7 @@ Conditions as we were attaching the condition to a specific resource
     approved*** (when selecting an approval task as the condition, the
     only options are is approved, is denied or is completed).
 
-> <img
-> src="../media/image42.png"
-> style="width:2.49423in;height:2.412in" />
+> <img src="../media/image42.png" width="100%" />
 
 48. Click the **Add a Condition** button.
 
@@ -460,9 +406,7 @@ Conditions as we were attaching the condition to a specific resource
     Employees*** has the value of ***is approved***. Your logic should
     look like the following.
 
-> <img
-> src="../media/image274.png"
-> style="width:6.48438in;height:4.12993in" />
+> <img src="../media/image274.png" width="100%" />
 
 This completes the flow of the access request. We are almost ready to
 publish it.
@@ -484,16 +428,12 @@ look at request conditions rather than request types.
 51. Click the edit (pencil) icon beside the request type name at the top
     of the editor.
 
-> <img
-> src="../media/image210.png"
-> style="width:6.47396in;height:2.20616in" />
+> <img src="../media/image210.png" width="100%" />
 
 52. On the **Request Type Details** dialog, enable the **Mark as done
     automatically?** option.
 
-> <img
-> src="../media/image114.png"
-> style="width:4.77604in;height:4.99636in" />
+> <img src="../media/image114.png" width="100%" />
 >
 > This will auto complete the request when all steps have run.
 
@@ -529,9 +469,7 @@ For the user to request access:
 1.  A user signs into the **Okta Dashboard** and clicks the **Request
     access** button.
 
-> <img
-> src="../media/image262.png"
-> style="width:6.48438in;height:2.23865in" />
+> <img src="../media/image262.png" width="100%" />
 >
 > Note that this user has the Okta Access Requests app because they had
 > to approve access in the contractor SoD lab. However they cannot use
@@ -544,23 +482,17 @@ For the user to request access:
 
 2.  Click the **Salesforce Channel Sales Team role** tile.
 
-> <img
-> src="../media/image21.png"
-> style="width:4.81839in;height:2.29089in" />
+> <img src="../media/image21.png" width="100%" />
 
 3.  On the next page click the ***Request access*** link which will take
     you into the Access Request Platform UI.
 
-> <img
-> src="../media/image228.png"
-> style="width:6.4845in;height:1.66937in" />
+> <img src="../media/image228.png" width="100%" />
 >
 > The next page shows the questions you set for the request type - the
 > Business Justification and the Primary Office.
 >
-> <img
-> src="../media/image153.png"
-> style="width:6.47396in;height:3.08333in" />
+> <img src="../media/image153.png" width="100%" />
 >
 > Notice that there is a **Request for** option. This is to allow users
 > to request access on behalf of others that we mentioned in an earlier
@@ -569,18 +501,14 @@ For the user to request access:
 4.  Enter a **Business Justification** and select a **Primary Office**
     that is NOT the Head Office.
 
-> <img
-> src="../media/image20.png"
-> style="width:4.50663in;height:3.3062in" />
+> <img src="../media/image20.png" width="100%" />
 
 5.  Click the **Submit new request** button.
 
 > On submission you are taken to the request details screen, which you
 > saw in the earlier labs for request conditions.
 >
-> <img
-> src="../media/image44.png"
-> style="width:6.48438in;height:7.34317in" />
+> <img src="../media/image44.png" width="100%" />
 >
 > The first step (task) is Approval for Other Employees. Recall the
 > conditions we applied to approvals - if the user was in the Head
@@ -590,9 +518,7 @@ For the user to request access:
 
 6.  Hover your mouse over the list of approvals to see the full list.
 
-> <img
-> src="../media/image95.png"
-> style="width:3.92188in;height:2.30819in" />
+> <img src="../media/image95.png" width="100%" />
 >
 > Note that Access Requests will only pick ten (10) users to assign the
 > approval step. With an Okta group of approvers, anyone in the list can
@@ -606,30 +532,22 @@ For the user to request access:
     select the **Okta Access Requests** tile and find the latest
     request. This is the same as for the other labs.
 
-> <img
-> src="../media/image136.png"
-> style="width:6.48438in;height:1.55427in" />
+> <img src="../media/image136.png" width="100%" />
 
 8.  Review the details of the request and click the **Approve** button.
 
-> <img
-> src="../media/image100.png"
-> style="width:6.47396in;height:3.0443in" />
+> <img src="../media/image100.png" width="100%" />
 
 9.  Monitor the page. You will see another task appear for the Assign
     SFDC Channel Sales role in an IN PROGRESS status. This should change
     to COMPLETED.
 
-> <img
-> src="../media/image287.png"
-> style="width:6.49479in;height:3.01544in" />
+> <img src="../media/image287.png" width="100%" />
 
 10. Click on the **<u>History</u>** tab to see the flow of steps (tasks)
     in the request.
 
-> <img
-> src="../media/image90.png"
-> style="width:4.23438in;height:7.18094in" />
+> <img src="../media/image90.png" width="100%" />
 >
 > You can see the two questions, the single approval and the step to
 > assign the entitlement bundle to the user.
@@ -647,16 +565,12 @@ For the user to request access:
 12. Find the user who requested access, click the more actions icon
     (three vertical dots) and select the **View access details** option.
 
-> <img
-> src="../media/image10.png"
-> style="width:6.48438in;height:4.02379in" />
+> <img src="../media/image10.png" width="100%" />
 
 13. Check that the entitlements in that bundle have been assigned to the
     user.
 
-> <img
-> src="../media/image101.png"
-> style="width:4.72396in;height:3.95846in" />
+> <img src="../media/image101.png" width="100%" />
 
 14. Go to the **<u>Assignment History</u>** tab to see when they were
     assigned.

@@ -49,13 +49,9 @@ To check the OIG is configured:
 
 You should see the five applications listed below.
 
-<img
-src="../media/image12.png"
-style="width:7in;height:2.61415in" />
+<img src="../media/image12.png" width="100%" />
 
-<img
-src="../media/image12.png"
-style="width:7in;height:2.62292in" />
+<img src="../media/image12.png" width="100%" />
 
 Notes:
 
@@ -114,9 +110,7 @@ will need some with manual assignment for some of the lab sections.
 Some of the groups used in the screen captures in this document are
 shown below. They include both manual and automated groups.
 
-<img
-src="../media/image203.png"
-style="width:7in;height:4.36111in" />
+<img src="../media/image203.png" width="100%" />
 
 You should consider how your groups are managed in Okta. If you have
 groups automatically assigned via group rules, it doesn’t make sense to

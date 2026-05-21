@@ -39,9 +39,7 @@ To check how Access Requests in defined in Okta:
 3.  Click on the application to open it. The default tab is the
     **<u>Assignments</u>** tab.
 
-> <img
-> src="../media/image164.png"
-> style="width:6.48542in;height:4.84375in" />
+> <img src="../media/image164.png" width="100%" />
 >
 > Notice that all the users who are assigned have been assigned
 > individually. This is because they have interacted with access request
@@ -70,9 +68,7 @@ any configuration we need to prior to creating request types.
 1.  From within the **Okta Admin Console**, go to **Identity Governance
     \> Access Requests**. It will open in a new tab.
 
-> <img
-> src="../media/image135.png"
-> style="width:6.47708in;height:3.375in" />
+> <img src="../media/image135.png" width="100%" />
 >
 > If you have come in as an administrator you will see more menu items
 > than you did coming in as a requester or approver. Specifically, there
@@ -99,9 +95,7 @@ The Settings menu item is for the system-wide settings.
 2.  Go to the **Settings** menu item. The default tab is the
     Integrations tab.
 
-> <img
-> src="../media/image288.png"
-> style="width:6.47907in;height:5.38958in" />
+> <img src="../media/image288.png" width="100%" />
 >
 > This is where the
 > [<u>integrations</u>](https://help.okta.com/oie/en-us/content/topics/identity-governance/access-requests/ar-integrations.htm)
@@ -126,9 +120,7 @@ The Settings menu item is for the system-wide settings.
 
 3.  Go to the **<u>Resources</u>** tab.
 
-> <img
-> src="../media/image32.png"
-> style="width:6.48438in;height:3.85975in" />
+> <img src="../media/image32.png" width="100%" />
 >
 > This tab shows all the **Applications**, **Okta groups**,
 > **Entitlement bundles** and **Workflows** synchronised from Okta into
@@ -139,9 +131,7 @@ The Settings menu item is for the system-wide settings.
 
 4.  Click on the **Manage Access** button for the Applications.
 
-> <img
-> src="../media/image88.png"
-> style="width:5.24479in;height:2.06045in" />
+> <img src="../media/image88.png" width="100%" />
 >
 > This dialog shows all the teams defined in this Access Requests
 > instance and whether they can use all Applications when constructing
@@ -218,9 +208,7 @@ We will look at, and use, the supplied Teams.
 
 9.  Go to the **Teams \> All** menu item.
 
-> <img
-> src="../media/image187.png"
-> style="width:6.47292in;height:2.58146in" />
+> <img src="../media/image187.png" width="100%" />
 >
 > There are two teams defined, **IT** and **Privileged Access**. The
 > latter is used solely for Okta Privileged Access and we are not
@@ -239,15 +227,11 @@ fix that.
 
 12. Click on the **Add member** button.
 
-> <img
-> src="../media/image28.png"
-> style="width:6.47708in;height:3.95833in" />
+> <img src="../media/image28.png" width="100%" />
 
 13. Find and select this admin user.
 
-<img
-src="../media/image156.png"
-style="width:4.24792in;height:1.2453in" />
+<img src="../media/image156.png" width="100%" />
 
 14. Confirm that this admin is now part of the team (go to **Teams \> My
     Teams** and the **IT** team should show up).
@@ -265,9 +249,7 @@ themselves.
 
 15. Go to **Request Types \> All**.
 
-> <img
-> src="../media/image163.png"
-> style="width:6.47292in;height:2.2347in" />
+> <img src="../media/image163.png" width="100%" />
 >
 > This is where you manage the request types. There are views for All
 > request types, request types in a Draft status, and request types by

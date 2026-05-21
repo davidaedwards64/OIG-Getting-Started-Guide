@@ -4,9 +4,7 @@
 The following figure shows the major components and interactions with
 Okta Identity Governance.
 
-<img
-src="../media/image145.png"
-style="width:7in;height:3.81944in" />
+<img src="../media/image145.png" width="100%" />
 
 The OIG product provides capabilities presented across three linked SaaS
 tenants: your Okta Workforce Identity Cloud org, an Access Requests

@@ -26,9 +26,7 @@ To create a dummy SCIM app:
 
 3.  Search for SCIM
 
-> <img
-> src="../media/image200.png"
-> style="width:6.45833in;height:3.3375in" />
+> <img src="../media/image200.png" width="100%" />
 
 4.  Select the ***SCIM 2.0 Test App (Basic Auth)***
 
@@ -39,9 +37,7 @@ To create a dummy SCIM app:
     users in your system who may be confused by seeing this new
     application.
 
-> <img
-> src="../media/image207.png"
-> style="width:6.4625in;height:4.19293in" />
+> <img src="../media/image207.png" width="100%" />
 
 7.  Click **Next**
 
@@ -49,9 +45,7 @@ To create a dummy SCIM app:
     click **Done**. As we’re not SSO’ing to the app, we don’t care about
     the SSO settings, just that we have an app in Okta.
 
-> <img
-> src="../media/image124.png"
-> style="width:6.44792in;height:3.10807in" />
+> <img src="../media/image124.png" width="100%" />
 
 9.  Assign a group of users to the new application, such as the Everyone
     group.

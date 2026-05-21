@@ -21,9 +21,7 @@ It doesn’t matter what you choose as the Access Request configuration
 and use is basically the same. For this example we will use a dummy
 (bookmark) app that has three groups assigned.
 
-<img
-src="../media/image131.png"
-style="width:7in;height:3.5in" />
+<img src="../media/image131.png" width="100%" />
 
 Some users (those that have a city of “High Oaks”) are already assigned
 to the Carpark-HO-Employees group (and thus assigned to the app). The
@@ -48,15 +46,11 @@ access to the app. To do this:
     applications and find and select the app you want to create a
     condition for.
 
-> <img
-> src="../media/image34.png"
-> style="width:6.47708in;height:2.65625in" />
+> <img src="../media/image34.png" width="100%" />
 
 2.  In the app, click on the **<u>Access requests</u>** tab.
 
-> <img
-> src="../media/image194.png"
-> style="width:6.47708in;height:3.32292in" />
+> <img src="../media/image194.png" width="100%" />
 >
 > Note that there is a SELF SERVICE section on the app page. This is the
 > older access requests mechanism that was built for Okta Lifecycle
@@ -68,9 +62,7 @@ access to the app. To do this:
 
 3.  Click the **+ Create condition** button.
 
-> <img
-> src="../media/image76.png"
-> style="width:6.48542in;height:3.11458in" />
+> <img src="../media/image76.png" width="100%" />
 
 4.  On the Access request condition page, give the condition a **name**.
 
@@ -86,9 +78,7 @@ access to the app. To do this:
 6.  We want this condition to apply to a specific group, so select
     **Groups associated with the app**.
 
-> <img
-> src="../media/image162.png"
-> style="width:6.47708in;height:3.33333in" />
+> <img src="../media/image162.png" width="100%" />
 >
 > This will expose a **Groups scope** option. It will allow you to
 > search for and select from any assignment groups or push groups
@@ -97,9 +87,7 @@ access to the app. To do this:
 7.  Search for and select the **App group** you want to assign (in this
     case the visitors group).
 
-> <img
-> src="../media/image290.png"
-> style="width:6.47708in;height:3.09375in" />
+> <img src="../media/image290.png" width="100%" />
 >
 > The next section is the **Access duration**. Access requests can be
 > set to automatically remove access after a period of time. You can
@@ -109,9 +97,7 @@ access to the app. To do this:
 8.  Enable the **Access duration** option, leave it as **Specify
     expiration now**, and set the value to **30 Days**.
 
-> <img
-> src="../media/image293.png"
-> style="width:6.48542in;height:2.30208in" />
+> <img src="../media/image293.png" width="100%" />
 >
 > The last section of the condition is to select (and in our case,
 > create) a sequence to use.
@@ -125,9 +111,7 @@ actions to occur within a flow.
 9.  In the **Approval sequence** section of the condition, click on the
     **Select sequence** button.
 
-> <img
-> src="../media/image18.png"
-> style="width:6.47708in;height:1.125in" />
+> <img src="../media/image18.png" width="100%" />
 >
 > This will open the sequence editor page. You are presented with an
 > empty sequence, with a Trigger step (the start) and a Deliver step
@@ -137,25 +121,19 @@ actions to occur within a flow.
 10. Click the **pencil icon** beside **Untitled Sequence** in the top
     left corner of the page.
 
-> <img
-> src="../media/image216.png"
-> style="width:6.47292in;height:2.65852in" />
+> <img src="../media/image216.png" width="100%" />
 
 11. On the Sequence Details window that pops up, provide a **Name** and
     **Description** and click the **Continue** button.
 
-> <img
-> src="../media/image85.png"
-> style="width:4.46458in;height:2.33107in" />
+> <img src="../media/image85.png" width="100%" />
 >
 > We are now ready to build the flow.
 
 12. Between the Trigger and Deliver steps there is a plus sign in a
     circle. Click it to add a step.
 
-> <img
-> src="../media/image109.png"
-> style="width:3.18376in;height:2.66458in" />
+> <img src="../media/image109.png" width="100%" />
 >
 > The Add step window opens on the right side of the editor. There are
 > five step types available:
@@ -193,9 +171,7 @@ actions to occur within a flow.
 
 13. Click on the **Questions for Requester** option.
 
-> <img
-> src="../media/image263.png"
-> style="width:6.47708in;height:1.83333in" />
+> <img src="../media/image263.png" width="100%" />
 >
 > This will open the Questions for Requester window where you can define
 > the Prompt (the label that will appear to the end user) and the type
@@ -214,9 +190,7 @@ actions to occur within a flow.
 14. Specify a **Prompt** like Business Justification and leave the type
     as **Text**.
 
-> <img
-> src="../media/image155.png"
-> style="width:6.46458in;height:2.40798in" />
+> <img src="../media/image155.png" width="100%" />
 >
 > Notice that the step in the flow updates as you enter the values. Also
 > you cannot set the Assign to. This is different to the Questions step
@@ -228,9 +202,7 @@ actions to occur within a flow.
 15. Click the **plus icon** in the flow below the new step to add
     another step, and select the **Approval** step type.
 
-> <img
-> src="../media/image266.png"
-> style="width:6.47708in;height:2.51042in" />
+> <img src="../media/image266.png" width="100%" />
 >
 > The approval step can be assigned to a range of users:
 
@@ -264,13 +236,9 @@ actions to occur within a flow.
 
 16. Select the **Requester’s manager** option.
 
-> <img
-> src="../media/image9.png"
-> style="width:6.47708in;height:3.23958in" />
+> <img src="../media/image9.png" width="100%" />
 >
-> <img
-> src="../media/image220.png"
-> style="width:6.46875in;height:3.01042in" />
+> <img src="../media/image220.png" width="100%" />
 >
 > The sequence is now complete with two steps, one to collect a business
 > justification and one to get the managers approval.
@@ -280,31 +248,23 @@ actions to occur within a flow.
 > Note that there is a Templates button that will show pre-built
 > sequence templates that you can use to start your sequence.
 >
-> <img
-> src="../media/image98.png"
-> style="width:6.46458in;height:7.33577in" />
+> <img src="../media/image98.png" width="100%" />
 
 18. Close the tab with the sequence editor and go back to the tab
     showing the condition approval sequence.
 
 19. Click the **Refresh list** button.
 
-> <img
-> src="../media/image139.png"
-> style="width:6.47292in;height:3.14977in" />
+> <img src="../media/image139.png" width="100%" />
 >
 > You should see your new sequence appear.
 >
-> <img
-> src="../media/image142.png"
-> style="width:6.47292in;height:2.93786in" />
+> <img src="../media/image142.png" width="100%" />
 
 20. Click on the new sequence and click the **more actions** icon (three
     vertical dots).
 
-> <img
-> src="../media/image222.png"
-> style="width:6.47292in;height:3.65065in" />
+> <img src="../media/image222.png" width="100%" />
 >
 > You can edit (or delete) this sequence from here. We won’t use them
 > now but this is how you update a sequence.
@@ -315,9 +275,7 @@ actions to occur within a flow.
 
 22. Check that the new sequence is assigned to your condition.
 
-> <img
-> src="../media/image2.png"
-> style="width:6.47292in;height:1.85904in" />
+> <img src="../media/image2.png" width="100%" />
 >
 > To change the sequence assigned, OR to modify an existing sequence,
 > you must click the **Change sequence** option and then Edit the
@@ -325,9 +283,7 @@ actions to occur within a flow.
 
 23. Click the **Create** button to create the new condition.
 
-> <img
-> src="../media/image1.png"
-> style="width:6.47292in;height:3.03418in" />
+> <img src="../media/image1.png" width="100%" />
 >
 > The new condition is created in a Disabled state. To edit a condition
 > it must be in a Disabled state.
@@ -335,9 +291,7 @@ actions to occur within a flow.
 24. Click on the **more actions** icon and then click on the **Enable**
     option.
 
-> <img
-> src="../media/image177.png"
-> style="width:6.47292in;height:1.01139in" />
+> <img src="../media/image177.png" width="100%" />
 >
 > The condition is now enabled and ready to use.
 
@@ -364,26 +318,18 @@ will create a second condition and sequence.
 
 > Your new condition should look like this.
 >
-> <img
-> src="../media/image69.png"
-> style="width:6.47708in;height:6.57292in" />
+> <img src="../media/image69.png" width="100%" />
 >
-> <img
-> src="../media/image271.png"
-> style="width:6.47708in;height:1.5in" />
+> <img src="../media/image271.png" width="100%" />
 >
 > Your new sequence should look like this.
 >
-> <img
-> src="../media/image118.png"
-> style="width:6.49375in;height:3.21875in" />
+> <img src="../media/image118.png" width="100%" />
 
 26. Save (Create) and enable the sequence. You should now have two
     enabled conditions for the app
 
-> <img
-> src="../media/image256.png"
-> style="width:6.48958in;height:3.06526in" />
+> <img src="../media/image256.png" width="100%" />
 >
 > You can see there are priorities associated with the conditions. Where
 > there are multiple conditions (and sequences) that apply to the same
@@ -416,9 +362,7 @@ condition.
 
 2.  Click on the **Request access** button.
 
-> <img
-> src="../media/image215.png"
-> style="width:6.47292in;height:2.18654in" />
+> <img src="../media/image215.png" width="100%" />
 >
 > You may notice an Add app menu item on the left in your system. This
 > is the old access request mechanism shipped with Okta Lifecycle
@@ -430,9 +374,7 @@ condition.
 
 3.  Click on the app tile to start the access request flow.
 
-> <img
-> src="../media/image158.png"
-> style="width:3.10625in;height:2.44191in" />
+> <img src="../media/image158.png" width="100%" />
 >
 > Note that if you have not enabled the **Access Requests - Unified
 > Requester Experience** EA feature (see the [<u>Early Access
@@ -440,9 +382,7 @@ condition.
 > an additional tile for **More items**. You can ignore that and just
 > click on the app tile.
 >
-> <img
-> src="../media/image205.png"
-> style="width:3.45335in;height:2.48641in" />
+> <img src="../media/image205.png" width="100%" />
 >
 > Selecting the app tile will trigger OIG to evaluate the conditions on
 > the app that apply to this user and present all the resources the user
@@ -454,9 +394,7 @@ condition.
 > The condition fires the sequence and prompts for **Business
 > Justification** which was the first step in the sequence.
 >
-> <img
-> src="../media/image83.png"
-> style="width:6.47708in;height:2.69792in" />
+> <img src="../media/image83.png" width="100%" />
 >
 > Any Questions for Requester that you specified in the sequence will
 > show up here.
@@ -464,9 +402,7 @@ condition.
 5.  Enter a **Business Justification** and click the **Submit** request
     button.
 
-> <img
-> src="../media/image71.png"
-> style="width:6.46875in;height:2.67708in" />
+> <img src="../media/image71.png" width="100%" />
 >
 > The rest of the sequence is now run in the Access Request Platform.
 > Emails will be sent to the first level of approvers (such as the
@@ -478,16 +414,12 @@ condition.
 
 6.  Click the **<u>Request submitted</u>** link.
 
-> <img
-> src="../media/image84.png"
-> style="width:6.48542in;height:2.69792in" />
+> <img src="../media/image84.png" width="100%" />
 >
 > This will open up a new window in the Access Request Platform UI
 > showing the user request under the Requests menu item.
 >
-> <img
-> src="../media/image33.png"
-> style="width:6.48125in;height:5.09408in" />
+> <img src="../media/image33.png" width="100%" />
 >
 > Ignore any other menu items for now.
 >
@@ -520,9 +452,7 @@ review.
 
 8.  Click on the **Okta Access Requests** tile.
 
-> <img
-> src="../media/image63.png"
-> style="width:6.48958in;height:2.32723in" />
+> <img src="../media/image63.png" width="100%" />
 >
 > This takes the manager into the Access Requests Portal UI.
 
@@ -532,9 +462,7 @@ review.
 
 10. Click on that request.
 
-> <img
-> src="../media/image239.png"
-> style="width:6.46875in;height:1.59375in" />
+> <img src="../media/image239.png" width="100%" />
 >
 > This opens up the details of the request. This is similar to the view
 > the user saw above. However in the **Tasks** pane there is the option
@@ -543,21 +471,15 @@ review.
 
 11. Click the **Approve** button to approve the request.
 
-> <img
-> src="../media/image70.png"
-> style="width:6.46711in;height:5.73695in" />
+> <img src="../media/image70.png" width="100%" />
 >
 > The task status changes to APPROVED.
 >
-> <img
-> src="../media/image227.png"
-> style="width:6.48958in;height:2.28393in" />
+> <img src="../media/image227.png" width="100%" />
 
 12. Click on the **<u>History</u>** tab (beside the **<u>Chat</u>** tab)
 
-> <img
-> src="../media/image188.png"
-> style="width:3.8661in;height:4.68433in" />
+> <img src="../media/image188.png" width="100%" />
 >
 > This shows all the activity associated with the request, newest first.
 > In this case it shows the requester questions (Business
@@ -572,9 +494,7 @@ review.
 13. Log back into the **Okta Admin Console** as an administrator and go
     to the app to confirm that the requesting user has been added.
 
-> <img
-> src="../media/image235.png"
-> style="width:6.47708in;height:2.57292in" />
+> <img src="../media/image235.png" width="100%" />
 >
 > This confirms the user has been added to the group and assigned to the
 > app via that group.
@@ -586,9 +506,7 @@ review.
 > At the top you should see events relating to the completion of the
 > request.
 >
-> <img
-> src="../media/image25.png"
-> style="width:6.48125in;height:2.20465in" />
+> <img src="../media/image25.png" width="100%" />
 >
 > This shows the user being added to the group (by the integration
 > between the Access Requests Platform and Okta “Okta IGA Connector”),
@@ -603,9 +521,7 @@ review.
 > Further down you will see events related to the user initiating the
 > request.
 >
-> <img
-> src="../media/image268.png"
-> style="width:6.47292in;height:3.13992in" />
+> <img src="../media/image268.png" width="100%" />
 >
 > There is an event for the user raising the request and the request
 > being raised in the Access Requests app.
@@ -628,15 +544,11 @@ configuration.
 
 16. As before click on the **Request access** button.
 
-> <img
-> src="../media/image242.png"
-> style="width:6.47292in;height:1.76271in" />
+> <img src="../media/image242.png" width="100%" />
 
 17. Select the other group (in our case, the executives group).
 
-> <img
-> src="../media/image209.png"
-> style="width:6.47292in;height:2.69461in" />
+> <img src="../media/image209.png" width="100%" />
 >
 > There are now two questions for the user. There is the Business
 > Justification as before, which we specified as the first step in the
@@ -657,9 +569,7 @@ configuration.
 
 21. Review and **Deny** the request
 
-> <img
-> src="../media/image244.png"
-> style="width:6.48125in;height:2.76739in" />
+> <img src="../media/image244.png" width="100%" />
 
 22. Log into the **Okta Admin Console** as an administrator and confirm
     that the user was NOT added to the second group.

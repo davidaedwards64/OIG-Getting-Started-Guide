@@ -26,22 +26,16 @@ our app.
 2.  Go to **Applications \> Applications** and select the app you want
     to use (in this case the Building Access app)
 
-> <img
-> src="../media/image73.png"
-> style="width:6.46875in;height:2.28125in" />
+> <img src="../media/image73.png" width="100%" />
 
 3.  In the app, select the **<u>Governance</u>** tab.
 
-> <img
-> src="../media/image38.png"
-> style="width:6.49375in;height:1.875in" />
+> <img src="../media/image38.png" width="100%" />
 
 4.  Click on the **<u>Bundles</u>** tab and confirm that you have the
     two bundles you created in the earlier Entitlement Management lab.
 
-> <img
-> src="../media/image259.png"
-> style="width:6.48542in;height:3.92708in" />
+> <img src="../media/image259.png" width="100%" />
 >
 > These are the bundles created for the BYO app. They also contain some
 > entitlements that we configured in the Separation of Duties (SoD)
@@ -62,9 +56,7 @@ sequence.
 
 6.  Click on the **<u>Access requests</u>** tab
 
-> <img
-> src="../media/image284.png"
-> style="width:6.46875in;height:2.04167in" />
+> <img src="../media/image284.png" width="100%" />
 
 7.  Click the **+ Create condition** button to start creating the first
     condition.
@@ -77,9 +69,7 @@ sequence.
     entitlement option. Click the **Requester must specify
     entitlements** option.
 
-> <img
-> src="../media/image276.png"
-> style="width:6.475in;height:4.30208in" />
+> <img src="../media/image276.png" width="100%" />
 
 11. When prompted, search for and select the corresponding entitlement
     bundle.
@@ -96,9 +86,7 @@ sequence.
     icon) and set the name to something like Supervisor and CIO Approval
     and give an appropriate description.
 
-> <img
-> src="../media/image97.png"
-> style="width:4.07691in;height:2.12708in" />
+> <img src="../media/image97.png" width="100%" />
 
 16. Click the **Continue** button.
 
@@ -118,9 +106,7 @@ sequence.
     could be assigned to different users) and specify a **Prompt** of
     Contractor Role.
 
-> <img
-> src="../media/image269.png"
-> style="width:6.47708in;height:2.54167in" />
+> <img src="../media/image269.png" width="100%" />
 
 22. Click the add step (**+**) icon and select **Approver**, and leave
     the **Assign to** as ***Requester’s manager***.
@@ -129,9 +115,7 @@ sequence.
     **Assign to** field select A specific user and select your CIO (or
     equivalent) user.
 
-> <img
-> src="../media/image81.png"
-> style="width:6.49375in;height:3.94792in" />
+> <img src="../media/image81.png" width="100%" />
 
 24. Click the **Save** button and close the browser tab with the
     sequence editor.
@@ -141,22 +125,16 @@ sequence.
 26. Find the new sequence, hover over it and click the **Select**
     button.
 
-> <img
-> src="../media/image175.png"
-> style="width:6.48125in;height:4.40764in" />
+> <img src="../media/image175.png" width="100%" />
 
 27. Confirm the correct sequence is added and click the **Create**
     button.
 
-> <img
-> src="../media/image143.png"
-> style="width:6.48125in;height:1.84214in" />
+> <img src="../media/image143.png" width="100%" />
 
 28. As before, enable the condition.
 
-> <img
-> src="../media/image66.png"
-> style="width:6.46042in;height:1.09375in" />
+> <img src="../media/image66.png" width="100%" />
 
 #### Create Second Condition and Sequence
 
@@ -169,19 +147,13 @@ sequence.
 
     - Use the same sequence as before
 
-> <img
-> src="../media/image6.png"
-> style="width:6.46875in;height:4.13542in" />
+> <img src="../media/image6.png" width="100%" />
 >
-> <img
-> src="../media/image115.png"
-> style="width:6.46875in;height:3.92708in" />
+> <img src="../media/image115.png" width="100%" />
 
 30. Enable the second condition.
 
-> <img
-> src="../media/image174.png"
-> style="width:6.46875in;height:2.34375in" />
+> <img src="../media/image174.png" width="100%" />
 
 There are now two entitlement-based conditions on our app ready for
 testing.
@@ -209,15 +181,11 @@ The user will request one of the bundles (via the condition).
     app you just created the conditions for (in our case this is the
     Building Access tile).
 
-> <img
-> src="../media/image185.png"
-> style="width:3.76458in;height:2.7271in" />
+> <img src="../media/image185.png" width="100%" />
 
 5.  Select one of the entitlement bundles presented.
 
-> <img
-> src="../media/image13.png"
-> style="width:5.7375in;height:3.42254in" />
+> <img src="../media/image13.png" width="100%" />
 >
 > This will open up the questions on the right side, showing the
 > Business Justification we put in the sequence.
@@ -225,9 +193,7 @@ The user will request one of the bundles (via the condition).
 6.  Enter a **Business Justification** and click the **Submit request**
     button.
 
-> <img
-> src="../media/image129.png"
-> style="width:6.5in;height:2.69792in" />
+> <img src="../media/image129.png" width="100%" />
 >
 > The request is submitted and the sequence is started. The people who
 > have the first task to perform (in this case supplying more
@@ -242,9 +208,7 @@ The user will request one of the bundles (via the condition).
 9.  If not taken to the new request, go to **Requests \> Inbox** and
     select the new request.
 
-> <img
-> src="../media/image15.png"
-> style="width:6.46458in;height:2.88192in" />
+> <img src="../media/image15.png" width="100%" />
 >
 > Notice that the **Tasks** pane on the right has a text field labeled
 > **Contractor Role**. This is being presented because the first step in
@@ -260,36 +224,28 @@ The user will request one of the bundles (via the condition).
 
 11. Click the **Approve** button.
 
-> <img
-> src="../media/image261.png"
-> style="width:6.48125in;height:2.23757in" />
+> <img src="../media/image261.png" width="100%" />
 >
 > This task is now marked as COMPLETED.
 >
 > The sequence moves to the next step which is the second level approval
 > which we fixed to a specific user.
 >
-> <img
-> src="../media/image221.png"
-> style="width:2.45625in;height:2.47262in" />
+> <img src="../media/image221.png" width="100%" />
 >
 > This should be a different user.
 
 12. Log in as the second-level approver, go to **Okta Access Requests**,
     and open the request
 
-> <img
-> src="../media/image234.png"
-> style="width:6.48125in;height:2.7391in" />
+> <img src="../media/image234.png" width="100%" />
 
 13. Click the **Approve** button.
 
 14. Go to the **<u>History</u>** tab of the request and look at the
     entries there.
 
-> <img
-> src="../media/image160.png"
-> style="width:6.45625in;height:5.22698in" />
+> <img src="../media/image160.png" width="100%" />
 >
 > As we saw earlier, you can see all the steps being executed for this
 > request.
@@ -302,16 +258,12 @@ The user will request one of the bundles (via the condition).
     access and click the more actions icon (three vertical dots beside
     the user).
 
-> <img
-> src="../media/image144.png"
-> style="width:6.48125in;height:4.50408in" />
+> <img src="../media/image144.png" width="100%" />
 
 18. Click the **View access details** option. The Access details for the
     user slides out from the right of the screen.
 
-> <img
-> src="../media/image58.png"
-> style="width:5.34792in;height:5.87633in" />
+> <img src="../media/image58.png" width="100%" />
 >
 > This contractor was granted app access (the General section) as a
 > result of the request (they were not in a group assigned to the app.
@@ -335,9 +287,7 @@ The user will request one of the bundles (via the condition).
     for the user and the other showing the request completing
     (resolved).
 
-> <img
-> src="../media/image193.png"
-> style="width:6.48331in;height:4.19679in" />
+> <img src="../media/image193.png" width="100%" />
 
 This shows that the entitlements were updated and you have an audit
 trail of the change.

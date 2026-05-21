@@ -22,17 +22,13 @@ We will generate and then look at these reports.
 2.  On the Access certification page, select the **<u>Reporting</u>**
     tab.
 
-> <img
-> src="../media/image157.png"
-> style="width:6.44792in;height:0.95951in" />
+> <img src="../media/image157.png" width="100%" />
 >
 > You should see at least one report, from the second access
 > certification lab (the screen shot shows two due to a duplicate
 > campaign run).
 >
-> <img
-> src="../media/image246.png"
-> style="width:6.48125in;height:1.23452in" />
+> <img src="../media/image246.png" width="100%" />
 >
 > Note the status that is showing as PENDING REPORT GENERATION. If the
 > campaign is still running you will get a status saying it’s running
@@ -43,24 +39,18 @@ We will generate and then look at these reports.
 4.  On the **Generate reports** confirmation dialog, read the message
     and click the **Generate reports** button.
 
-> <img
-> src="../media/image285.png"
-> style="width:3.55221in;height:1.93958in" />
+> <img src="../media/image285.png" width="100%" />
 >
 > The status of the report will change to GENERATING REPORTS and the
 > generate button is disabled.
 >
-> <img
-> src="../media/image204.png"
-> style="width:6.46458in;height:0.88503in" />
+> <img src="../media/image204.png" width="100%" />
 >
 > The report generation may take some time.
 
 5.  Click the down arrow beside the campaign name to see the progress.
 
-> <img
-> src="../media/image240.png"
-> style="width:6.45625in;height:2.39227in" />
+> <img src="../media/image240.png" width="100%" />
 >
 > You can download each report as they become available.
 

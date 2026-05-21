@@ -12,9 +12,7 @@ We will walk through the creation of the campaign:
 
 2.  Go to **Identity Governance \> Access Certifications**
 
-> <img
-> src="../media/image184.png"
-> style="width:6.48438in;height:4.83433in" />
+> <img src="../media/image184.png" width="100%" />
 >
 > This takes you into the access certifications section of Okta. This is
 > the main management page showing the number of active, scheduled and
@@ -24,15 +22,11 @@ We will walk through the creation of the campaign:
 3.  Click the **Create campaign** button which will provide two options:
     ***Resource Campaign*** and ***User Campaign***.
 
-> <img
-> src="../media/image14.png"
-> style="width:1.74479in;height:1.55195in" />
+> <img src="../media/image14.png" width="100%" />
 
 4.  Click on the **User Campaign** option.
 
-> <img
-> src="../media/image104.png"
-> style="width:6.47396in;height:3.74757in" />
+> <img src="../media/image104.png" width="100%" />
 >
 > The campaign creation process is set out like a wizard where you are
 > guided through the configuration steps. As you progress the details
@@ -50,13 +44,9 @@ We will walk through the creation of the campaign:
 
 7.  Uncheck the **Make this recurring** option.
 
-> <img
-> src="../media/image45.png"
-> style="width:6.48438in;height:3.73431in" />
+> <img src="../media/image45.png" width="100%" />
 >
-> <img
-> src="../media/image264.png"
-> style="width:6.49479in;height:3.47935in" />
+> <img src="../media/image264.png" width="100%" />
 
 8.  Click the **Next** button at the bottom of the page. Note that you
     can move forward and back between the configuration pages as needed.
@@ -64,9 +54,7 @@ We will walk through the creation of the campaign:
 9.  On the **Users** page, in the **Select users or groups** field click
     the down arrow to see the options.
 
-> <img
-> src="../media/image49.png"
-> style="width:3.97396in;height:1.98698in" />
+> <img src="../media/image49.png" width="100%" />
 >
 > You can define **Users** in the campaign via specific groups,
 > selecting them individually or by using [<u>Okta Expression
@@ -77,29 +65,21 @@ We will walk through the creation of the campaign:
     groups**, and in the **Select groups** field, find and select the
     employee group.
 
-> <img
-> src="../media/image225.png"
-> style="width:3.97716in;height:3.21757in" />
+> <img src="../media/image225.png" width="100%" />
 >
 > Notice that the list includes the group name, description, number of
 > users and number of assigned apps.
 >
-> <img
-> src="../media/image94.png"
-> style="width:3.97396in;height:1.44508in" />
+> <img src="../media/image94.png" width="100%" />
 
 11. Click the **Next** button to move to the next page.
 
-> <img
-> src="../media/image247.png"
-> style="width:6.48438in;height:3.0878in" />
+> <img src="../media/image247.png" width="100%" />
 >
 > The **Resources** page has many options to control which resources are
 > to be reviewed for the selected users.
 >
-> <img
-> src="../media/image218.png"
-> style="width:3.64583in;height:1.77404in" />
+> <img src="../media/image218.png" width="100%" />
 >
 > You can limit it to all apps assigned to users, all groups assigned to
 > users or both. You can limit it to individual user assignment or
@@ -113,9 +93,7 @@ We will walk through the creation of the campaign:
 
 13. Click the **Next** button to go to the Reviewer page.
 
-> <img
-> src="../media/image121.png"
-> style="width:6.48958in;height:3.91667in" />
+> <img src="../media/image121.png" width="100%" />
 >
 > First, look at the options under the Select reviewer heading. There
 > are different reviewers you can assign to the campaign:
@@ -135,9 +113,7 @@ We will walk through the creation of the campaign:
 > If you select one in error, you can return to the list of reviewer
 > types by clicking the pencil icon beside the one you just selected.
 >
-> <img
-> src="../media/image224.png"
-> style="width:1.92708in;height:0.63542in" />
+> <img src="../media/image224.png" width="100%" />
 
 14. Select the ***Manager*** option so each user’s manager will need to
     review their access.
@@ -146,9 +122,7 @@ We will walk through the creation of the campaign:
     manager defined, there will be someone assigned to perform the
     review.
 
-> <img
-> src="../media/image199.png"
-> style="width:4.48604in;height:3.25104in" />
+> <img src="../media/image199.png" width="100%" />
 >
 > There is a Disable self-review option to stop people from reviewing
 > their own access if they somehow have themselves as their manager or
@@ -159,9 +133,7 @@ We will walk through the creation of the campaign:
 
 16. Click the down arrow in the **Notifications** box.
 
-> <img
-> src="../media/image192.png"
-> style="width:4.48203in;height:2.29437in" />
+> <img src="../media/image192.png" width="100%" />
 >
 > This section allows selection of the different notification emails
 > that can be sent out during different phases of the campaign,
@@ -171,9 +143,7 @@ We will walk through the creation of the campaign:
 17. Close this section (up arrow icon) and open the **Additional
     Settings** section (down arrow).
 
-> <img
-> src="../media/image183.png"
-> style="width:4.48648in;height:1.87604in" />
+> <img src="../media/image183.png" width="100%" />
 >
 > The first option is to require justification for all decisions
 > (approve, revoke, reassign). We will see this in action when we run
@@ -196,9 +166,7 @@ We will walk through the creation of the campaign:
 
 18. Click the **Next** button to go to the Remediation page.
 
-> <img
-> src="../media/image250.png"
-> style="width:6.48438in;height:3.31938in" />
+> <img src="../media/image250.png" width="100%" />
 >
 > This page is for the remediations when the following actions occur:
 
@@ -233,9 +201,7 @@ We will walk through the creation of the campaign:
 20. Click on the **Schedule Campaign** button to save the campaign ready
     for launch.
 
-> <img
-> src="../media/image161.png"
-> style="width:6.47917in;height:4.05208in" />
+> <img src="../media/image161.png" width="100%" />
 >
 > You will also see a confirmation message appear in a green box on the
 > bottom right of the screen. This will disappear automatically.
@@ -251,25 +217,19 @@ which we will do to speed up the process.
 1.  As the administrator in the **Okta Admin Console** on the **Access
     certification** page, click on the campaign you just created.
 
-> <img
-> src="../media/image61.png"
-> style="width:6.48958in;height:3.76042in" />
+> <img src="../media/image61.png" width="100%" />
 
 2.  Review the details of the campaign. It should reflect the settings
     you configured when you created the campaign.
 
-> <img
-> src="../media/image258.png"
-> style="width:6.48438in;height:3.51237in" />
+> <img src="../media/image258.png" width="100%" />
 
 3.  Select **Actions \> Launch** to launch the campaign.
 
 4.  On the **Launch campaign** confirmation dialog, click the **Launch**
     button.
 
-> <img
-> src="../media/image195.png"
-> style="width:4.02604in;height:1.93875in" />
+> <img src="../media/image195.png" width="100%" />
 >
 > A confirmation message is displayed and the campaign shows *Campaign
 > launching* in the Starts in column.
@@ -277,15 +237,11 @@ which we will do to speed up the process.
 5.  Click on the **Active** field to see the campaign once launched (it
     may take a few minutes to launch).
 
-> <img
-> src="../media/image78.png"
-> style="width:6.47396in;height:0.6262in" />
+> <img src="../media/image78.png" width="100%" />
 
 6.  Click on the campaign again to see the details.
 
-> <img
-> src="../media/image151.png"
-> style="width:6.46354in;height:1.95253in" />
+> <img src="../media/image151.png" width="100%" />
 >
 > Notice that there is a Certification Progress column for active
 > campaigns. This Active view can be used to get an overview of the
@@ -293,9 +249,7 @@ which we will do to speed up the process.
 
 7.  Look at the information presented on the top of the campaign page.
 
-> <img
-> src="../media/image89.png"
-> style="width:6.47917in;height:2.57292in" />
+> <img src="../media/image89.png" width="100%" />
 >
 > It provides counts of the total, pending, approved and revoked review
 > items.
@@ -303,9 +257,7 @@ which we will do to speed up the process.
 8.  Scroll down to the section showing the review items for this
     campaign.
 
-> <img
-> src="../media/image147.png"
-> style="width:6.48438in;height:4.98872in" />
+> <img src="../media/image147.png" width="100%" />
 >
 > There are two tabs - the **<u>Pending</u>** items and the
 > **<u>Closed</u>** items. As there have been no reviews performed,
@@ -341,9 +293,7 @@ some access.
 
 1.  As the reviewer sign into the **Okta Dashboard**.
 
-> <img
-> src="../media/image5.png"
-> style="width:6.45313in;height:2.1812in" />
+> <img src="../media/image5.png" width="100%" />
 >
 > There is a new tile showing - Okta Access Certification. This is tied
 > to a group that OIG manages - whenever there is an active campaign,
@@ -353,9 +303,7 @@ some access.
 2.  Click on the **Okta Access Certification** tile. The Access
     certification app opens.
 
-> <img
-> src="../media/image190.png"
-> style="width:6.46875in;height:3.22336in" />
+> <img src="../media/image190.png" width="100%" />
 >
 > This page shows all the Open or Closed campaigns where this user is a
 > reviewer, including the number of pending reviews and due date for the
@@ -363,17 +311,13 @@ some access.
 
 3.  Click on the campaign just launched to see the campaign details.
 
-> <img
-> src="../media/image111.png"
-> style="width:6.51042in;height:1.86458in" />
+> <img src="../media/image111.png" width="100%" />
 >
 > The top of the page shows the campaign summary for this reviewer.
 
 4.  Scroll down to see the review items.
 
-> <img
-> src="../media/image179.png"
-> style="width:6.48438in;height:4.31327in" />
+> <img src="../media/image179.png" width="100%" />
 >
 > The review sees a table view of either the **<u>Pending</u>** or
 > **<u>Closed</u>** review items for them (similar to the admin view).
@@ -381,9 +325,7 @@ some access.
 > Depending on the screen width, you will see either icons or icons+text
 > for the Actions.
 >
-> <img
-> src="../media/image217.png"
-> style="width:3.46354in;height:1.76003in" />
+> <img src="../media/image217.png" width="100%" />
 >
 > The actions are to approve, revoke or reassign a specific item. Also
 > there are multi-select boxes beside each item to allow for bulk
@@ -392,9 +334,7 @@ some access.
 
 5.  Select one of the rows where the resource is a group.
 
-> <img
-> src="../media/image172.png"
-> style="width:6.48544in;height:4.35258in" />
+> <img src="../media/image172.png" width="100%" />
 >
 > A panel will slide out from the side of the screen showing details of
 > the review item. It shows information about the user (pulling data
@@ -406,9 +346,7 @@ some access.
 6.  Close the panel and select an item with an application and
     entitlement.
 
-> <img
-> src="../media/image182.png"
-> style="width:6.48438in;height:6.43613in" />
+> <img src="../media/image182.png" width="100%" />
 >
 > In this case a lot more information is provided in the slide out panel
 > for both the entitlement and application. This includes whether it was
@@ -420,15 +358,11 @@ some access.
 7.  Close the panel and select one of the group entitlements. Click the
     **Revoke** action.
 
-> <img
-> src="../media/image226.png"
-> style="width:6.47396in;height:1.69556in" />
+> <img src="../media/image226.png" width="100%" />
 >
 > A **Revoke access** confirmation dialog is displayed.
 >
-> <img
-> src="../media/image57.png"
-> style="width:2.75521in;height:2.53826in" />
+> <img src="../media/image57.png" width="100%" />
 >
 > Recall during the campaign configuration there was an option to
 > Require justification (that we did NOT select). That option would make
@@ -441,9 +375,7 @@ some access.
 
 9.  Select multiple application accesses.
 
-> <img
-> src="../media/image134.png"
-> style="width:6.48438in;height:2.93341in" />
+> <img src="../media/image134.png" width="100%" />
 >
 > Notice that the Approve/Revoke/Reassign items at the top of the table
 > now have (3) beside them (you will not see this if you have the
@@ -460,23 +392,17 @@ some access.
 > see the numbers have changed to reflect the approve and revoke
 > actions. Also the progress has been updated.
 >
-> <img
-> src="../media/image140.png"
-> style="width:6.47917in;height:0.76042in" />
+> <img src="../media/image140.png" width="100%" />
 
 12. Click on the **<u>Closed</u>** tab to see the items you have
     reviewed.
 
-> <img
-> src="../media/image198.png"
-> style="width:6.46354in;height:3.14088in" />
+> <img src="../media/image198.png" width="100%" />
 
 13. Click on the item where you revoked access (***Access revoked*** in
     the **Decision** column).
 
-> <img
-> src="../media/image40.png"
-> style="width:6.47396in;height:2.78349in" />
+> <img src="../media/image40.png" width="100%" />
 >
 > Notice how the history has been updated.
 
@@ -492,17 +418,13 @@ confirm the updates.
 1.  Go back into the administrators view of the Access Certification
     campaign as the admin you created the campaign with.
 
-> <img
-> src="../media/image295.png"
-> style="width:6.46875in;height:4.01042in" />
+> <img src="../media/image295.png" width="100%" />
 >
 > The progress for this campaign has been updated.
 
 2.  Select the campaign.
 
-> <img
-> src="../media/image47.png"
-> style="width:6.47917in;height:2.57292in" />
+> <img src="../media/image47.png" width="100%" />
 >
 > The counts for the campaign and the progress bar have been updated.
 
@@ -511,9 +433,7 @@ confirm the updates.
 
 4.  Click the **Actions** menu.
 
-> <img
-> src="../media/image108.png"
-> style="width:2.12862in;height:2.17813in" />
+> <img src="../media/image108.png" width="100%" />
 >
 > An admin can
 > [<u>duplicate</u>](https://help.okta.com/en-us/content/topics/identity-governance/access-certification/copy-campaign.htm)
@@ -522,16 +442,12 @@ confirm the updates.
 
 5.  Click the **End** option to close the campaign early.
 
-> <img
-> src="../media/image279.png"
-> style="width:4.22396in;height:2.03012in" />
+> <img src="../media/image279.png" width="100%" />
 
 6.  On the **End campaign** confirmation dialog, click the **End
     Campaign** button. This will move it to the closed status.
 
-> <img
-> src="../media/image50.png"
-> style="width:6.48438in;height:1.80443in" />
+> <img src="../media/image50.png" width="100%" />
 
 This concludes the first access certifications lab looking at a user
 access review (user campaign) and exploring most of the configuration

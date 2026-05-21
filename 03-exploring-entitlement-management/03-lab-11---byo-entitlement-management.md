@@ -26,9 +26,7 @@ they will need some common attribute to use in the example Entitlement
 Policy. For this example, I have some users who all have the same city
 value of “High Oaks”. You can choose any field to follow this example.
 
-<img
-src="../media/image286.png"
-style="width:7in;height:1.20833in" />
+<img src="../media/image286.png" width="100%" />
 
 ### Set Up Application for Entitlement Management
 
@@ -42,9 +40,7 @@ entitlement management has been enabled or not. Due to recent feature
 enhancements, the Governance tab is added irrespective of whether
 entitlement management has been enabled for the app or not.
 
-<img
-src="../media/image248.png"
-style="width:7in;height:3.01389in" />
+<img src="../media/image248.png" width="100%" />
 
 To check (and enable):
 
@@ -53,34 +49,24 @@ To check (and enable):
 2.  Scroll down to the **Entitlement management** section and check if
     it is Disabled or not
 
-> <img
-> src="../media/image107.png"
-> style="width:6.47292in;height:2.03242in" />
+> <img src="../media/image107.png" width="100%" />
 >
-> <img
-> src="../media/image107.png"
-> style="width:6.48125in;height:1.87108in" />
+> <img src="../media/image107.png" width="100%" />
 
 3.  If disabled, click **Edit**
 
 4.  Toggle to ***Enabled*** and click the **Save** button
 
-> <img
-> src="../media/image64.png"
-> style="width:4.67292in;height:2.3156in" />
+> <img src="../media/image64.png" width="100%" />
 >
 > You will see a message indicating Entitlement management is being
 > enabled for the app.
 >
-> <img
-> src="../media/image137.png"
-> style="width:4.65625in;height:1.36281in" />
+> <img src="../media/image137.png" width="100%" />
 >
 > Then it will update to show it is now enabled.
 >
-> <img
-> src="../media/image249.png"
-> style="width:4.64583in;height:0.52292in" />
+> <img src="../media/image249.png" width="100%" />
 
 The app is now ready for Entitlement Management.
 
@@ -108,9 +94,7 @@ To open the Governance Engine for this app:
 2.  If prompted for additional authentication, respond to it (you are
     technically entering a different app in Okta but it is transparent)
 
-> <img
-> src="../media/image127.png"
-> style="width:6.47917in;height:3.58791in" />
+> <img src="../media/image127.png" width="100%" />
 
 The default Governance tab is the Owners tab to define app, bundle and
 entitlement owners (used for other governance functions). We will come
@@ -128,9 +112,7 @@ We will start by creating a building access entitlement.
 
 3.  Click on the **<u>Entitlements</u>** tab
 
-> <img
-> src="../media/image46.png"
-> style="width:6.48125in;height:2.69088in" />
+> <img src="../media/image46.png" width="100%" />
 
 4.  Click the **Add entitlement** button
 
@@ -148,31 +130,23 @@ We will start by creating a building access entitlement.
 >
 > **Description** = anything
 >
-> <img
-> src="../media/image170.png"
-> style="width:6.48125in;height:3.17311in" />
+> <img src="../media/image170.png" width="100%" />
 
 6.  Click the **Next** button
 
 7.  Add entitlement values as per the screenshot below (use the **+ Add
     value** button to add additional values)
 
-> <img
-> src="../media/image152.png"
-> style="width:6.47292in;height:2.77411in" />
+> <img src="../media/image152.png" width="100%" />
 
 8.  Click the **Save entitlement** button
 
 > The entitlement is added. Notice the green success message that
 > briefly appears. The entitlement with all the values are now shown.
 >
-> <img
-> src="../media/image110.png"
-> style="width:6.45833in;height:3.58542in" />
+> <img src="../media/image110.png" width="100%" />
 >
-> <img
-> src="../media/image110.png"
-> style="width:6.45833in;height:3.3in" />
+> <img src="../media/image110.png" width="100%" />
 
 9.  Now create a second entitlement using the **Add entitlement** button
     for Privileged Access, **string array** type with the following
@@ -188,9 +162,7 @@ We will start by creating a building access entitlement.
 
 > There are now two entitlements each with a set of values.
 >
-> <img
-> src="../media/image191.png"
-> style="width:6.47292in;height:5.42299in" />
+> <img src="../media/image191.png" width="100%" />
 
 These entitlements can be used in Bundles for exposing via Access
 Requests, and in Policy for rule-based assignment.
@@ -232,18 +204,14 @@ To create a policy rule:
 
 2.  Click the **Add rule** button
 
-> <img
-> src="../media/image133.png"
-> style="width:6.47292in;height:1.95536in" />
+> <img src="../media/image133.png" width="100%" />
 
 3.  Give the policy a **Rule name** (e.g. “Head Office employees”)
 
 4.  If the **IF User scope** section, specify the selection scope. In
     this example it is ***City*** ***Equals*** High Oaks.
 
-> <img
-> src="../media/image39.png"
-> style="width:6.48125in;height:3.53961in" />
+> <img src="../media/image39.png" width="100%" />
 >
 > Note that you can also [<u>use Okta Expression
 > Language</u>](https://help.okta.com/oie/en-us/content/topics/identity-governance/em/policy-rule-el-examples.htm)
@@ -254,24 +222,18 @@ To create a policy rule:
     value to assign. In this example we are assigning the users to the
     Building Access entitlement, Head Office value.
 
-> <img
-> src="../media/image213.png"
-> style="width:6.46875in;height:3.43125in" />
+> <img src="../media/image213.png" width="100%" />
 
 6.  You can use the Preview User function to confirm the rule is working
     against a user you know has the value you want.
 
-> <img
-> src="../media/image181.png"
-> style="width:6.48125in;height:1.0127in" />
+> <img src="../media/image181.png" width="100%" />
 
 7.  Click **Save rule**
 
 > The Policy tab will now show the new rule.
 >
-> <img
-> src="../media/image60.png"
-> style="width:6.47292in;height:2.99565in" />
+> <img src="../media/image60.png" width="100%" />
 >
 > Notice the Preview draft button. This will generate a list of the
 > entitlements that will be assigned based on the rules configured. It
@@ -287,40 +249,30 @@ To create a policy rule:
 
 10. Check that the policy shows as Active now
 
-> <img
-> src="../media/image91.png"
-> style="width:6.46875in;height:3.14583in" />
+> <img src="../media/image91.png" width="100%" />
 
 To confirm the policy is working as expected we can check the
 assignments:
 
 11. Click the **<u>Back to application</u>** link at the top of the page
 
-> <img
-> src="../media/image208.png"
-> style="width:6.47708in;height:1.51042in" />
+> <img src="../media/image208.png" width="100%" />
 
 12. Go to the **Assignments** tab
 
 13. Locate a user who should have been subject to the policy and locate
     the menu icon on the right (three vertical dots).
 
-> <img
-> src="../media/image206.png"
-> style="width:6.47165in;height:4.03515in" />
+> <img src="../media/image206.png" width="100%" />
 
 14. Click it and select ***View access details***
 
-> <img
-> src="../media/image186.png"
-> style="width:6.48125in;height:1.77463in" />
+> <img src="../media/image186.png" width="100%" />
 
 15. A slide out window will appear and you should see the default
     entitlement assigned by policy.
 
-> <img
-> src="../media/image53.png"
-> style="width:3.65625in;height:2.27972in" />
+> <img src="../media/image53.png" width="100%" />
 
 This confirms that the entitlement policy has worked.
 
@@ -347,9 +299,7 @@ To create a bundle:
 1.  From within the Application **<u>Governance</u>** tab, select the
     **<u>Bundles</u>** tab.
 
-> <img
-> src="../media/image93.png"
-> style="width:6.48125in;height:2.54621in" />
+> <img src="../media/image93.png" width="100%" />
 
 2.  Click the **Create bundle** button
 
@@ -359,17 +309,13 @@ To create a bundle:
     ***Data Centre*** value for the ***Building Access*** entitlement
     and the Computer Hall value for Privileged Access.
 
-> <img
-> src="../media/image77.png"
-> style="width:6.48125in;height:4.35941in" />
+> <img src="../media/image77.png" width="100%" />
 
 5.  Click the **Create** button to save the new entitlement bundle.
 
 > The bundle is now created.
 >
-> <img
-> src="../media/image211.png"
-> style="width:6.48464in;height:3.4in" />
+> <img src="../media/image211.png" width="100%" />
 
 6.  Repeat the steps above to create a second bundle to give building
     access to “Head Office” and privileged access to “Doc Archive”.
@@ -402,9 +348,7 @@ To do this:
 3.  In the new rule, define a **Rule Name**, **Description** and
     **Note.**
 
-> <img
-> src="../media/image122.png"
-> style="width:6.48125in;height:3.58783in" />
+> <img src="../media/image122.png" width="100%" />
 
 4.  Scroll down to the **Define Conflicts** section. Select two
     entitlements that could be in conflict. In this example we have
@@ -419,15 +363,11 @@ To do this:
 > You can also rename the List 1 / List 2 labels so they are more
 > meaningful.
 >
-> <img
-> src="../media/image123.png"
-> style="width:6.47917in;height:5.13542in" />
+> <img src="../media/image123.png" width="100%" />
 
 5.  Click the **Create rule** button.
 
-> <img
-> src="../media/image219.png"
-> style="width:6.46875in;height:2.45734in" />
+> <img src="../media/image219.png" width="100%" />
 
 6.  You should see your new rule created. There is no concept of
     draft/live - once a rule is created it is live (published).

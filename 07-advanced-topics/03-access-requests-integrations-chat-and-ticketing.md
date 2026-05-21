@@ -21,13 +21,9 @@ Both support:
 
 An example in Slack is shown below.
 
-<img
-src="../media/image82.png"
-style="width:7in;height:1.62521in" />
+<img src="../media/image82.png" width="100%" />
 
-<img
-src="../media/image82.png"
-style="width:7in;height:3.92292in" />
+<img src="../media/image82.png" width="100%" />
 
 The request experience will change depending on whether the **Unified
 requester experience** feature is enabled or not. Without this feature,

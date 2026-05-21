@@ -23,13 +23,9 @@ bulkload/maintenance mechanism in Workflows.
 
 Both Request Types and Conditions have actions to call Workflows.
 
-<img
-src="../media/image277.png"
-style="width:7in;height:1.875in" />
+<img src="../media/image277.png" width="100%" />
 
-<img
-src="../media/image141.png"
-style="width:7in;height:1.76389in" />
+<img src="../media/image141.png" width="100%" />
 
 This allows the flow to pass a set of attributes to a workflow and have
 it run. The workflow is configured as a delegated flow with the

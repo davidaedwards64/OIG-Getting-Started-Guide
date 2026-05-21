@@ -21,23 +21,17 @@ The reports fall under three reporting categories:
 - **Entitlements and Access** - reports presenting assignments, access
   requests and SoD.
 
-> <img
-> src="../media/image166.png"
-> style="width:6.46667in;height:2.32292in" />
+> <img src="../media/image166.png" width="100%" />
 
 - **Access Certification Campaigns** - view the summaries and detailed
   results of past campaigns.
 
-> <img
-> src="../media/image294.png"
-> style="width:6.48333in;height:1.625in" />
+> <img src="../media/image294.png" width="100%" />
 
 - **Application Access Audit** - reports specifically looking at
   assignments, including recent un-assignments.
 
-> <img
-> src="../media/image280.png"
-> style="width:6.46667in;height:1.57292in" />
+> <img src="../media/image280.png" width="100%" />
 
 There are some limitations on reporting you should be aware of.
 
@@ -76,9 +70,7 @@ For example, I could create a filter of eventType sw “access” for all
 access request events and save the filter to a custom report. This will
 then appear in the list of reports on the right of the Reports page.
 
-<img
-src="../media/image254.png"
-style="width:7in;height:2.125in" />
+<img src="../media/image254.png" width="100%" />
 
 All of the current [<u>event
 types</u>](https://developer.okta.com/docs/reference/api/event-types/)

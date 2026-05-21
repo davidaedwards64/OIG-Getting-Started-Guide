@@ -40,9 +40,7 @@ We will walk through the creation of the campaign:
 
 5.  Click the **Next** button to go to the **Resources** page.
 
-> <img
-> src="../media/image23.png"
-> style="width:6.47292in;height:2.15764in" />
+> <img src="../media/image23.png" width="100%" />
 >
 > There are two resources you can select, Application and Group. With
 > Application you are certifying the users assigned to the app(s), with
@@ -53,23 +51,17 @@ We will walk through the creation of the campaign:
 7.  In the Select applications field, search for and select the
     application(s) you want to add.
 
-> <img
-> src="../media/image51.png"
-> style="width:4.48714in;height:2.93958in" />
+> <img src="../media/image51.png" width="100%" />
 
 8.  Enable the **Review entitlements** option.
 
-> <img
-> src="../media/image150.png"
-> style="width:6.47292in;height:0.88617in" />
+> <img src="../media/image150.png" width="100%" />
 >
 > An Entitlements section is displayed for the app you selected.
 
 9.  Expand the list of options in the **Select scope** field.
 
-> <img
-> src="../media/image232.png"
-> style="width:4.63125in;height:4.36719in" />
+> <img src="../media/image232.png" width="100%" />
 >
 > You can select all or specific entitlements and bundles. There are
 > also options to leverage governance labels for selection. We do not
@@ -82,9 +74,7 @@ We will walk through the creation of the campaign:
 11. Click the **Next** button to go to the **Users** page. Here you
     define the users scope (for users assigned the resources).
 
-> <img
-> src="../media/image96.png"
-> style="width:4.53125in;height:2.29302in" />
+> <img src="../media/image96.png" width="100%" />
 >
 > The options are:
 
@@ -129,9 +119,7 @@ We will walk through the creation of the campaign:
 > More details on how this works can be found in the [<u>product
 > documentation</u>](https://help.okta.com/oie/en-us/content/topics/identity-governance/access-certification/iga-ac-create-campaign.htm?cshid=csh-resource-reviewer-type#Configur2).
 >
-> <img
-> src="../media/image106.png"
-> style="width:5.48759in;height:5.59375in" />
+> <img src="../media/image106.png" width="100%" />
 >
 > You could select the **Disable self-review** as you might get execs
 > reviewing themselves.
@@ -140,18 +128,14 @@ We will walk through the creation of the campaign:
     the **Require justification** and **Disable bulk decisions**
     options.
 
-> <img
-> src="../media/image65.png"
-> style="width:5.52292in;height:2.1808in" />
+> <img src="../media/image65.png" width="100%" />
 
 20. Click **Next** to go to the Remediation page.
 
 21. Select **Remove access from user** in the **Reviewer revokes
     access** section.
 
-> <img
-> src="../media/image99.png"
-> style="width:6.46458in;height:4.2039in" />
+> <img src="../media/image99.png" width="100%" />
 
 22. Review the **Campaign summary** and click the **Schedule Campaign**
     button.
@@ -170,9 +154,7 @@ As before the campaign can be launched.
 
 4.  Scroll down to the **<u>Pending</u>** review items.
 
-> <img
-> src="../media/image30.png"
-> style="width:6.46458in;height:3.58823in" />
+> <img src="../media/image30.png" width="100%" />
 >
 > If you ran the [<u>SoD access
 > request</u>](#lab-2.3---request-conditions-with-sod-checking) lab
@@ -187,9 +169,7 @@ As before the campaign can be launched.
 6.  In the slide-out panel, scroll down to see the **SOD conflict
     details** section.
 
-> <img
-> src="../media/image7.png"
-> style="width:6.45625in;height:4.89023in" />
+> <img src="../media/image7.png" width="100%" />
 >
 > This highlights the SoD rule that was triggered for this user.
 >
@@ -212,16 +192,12 @@ managers.
 
 3.  Click on the new resource campaign.
 
-> <img
-> src="../media/image233.png"
-> style="width:6.48125in;height:3.89647in" />
+> <img src="../media/image233.png" width="100%" />
 
 4.  Before looking at the items, select both rows and observe what
     happens to the bulk actions.
 
-> <img
-> src="../media/image87.png"
-> style="width:6.48958in;height:1.19748in" />
+> <img src="../media/image87.png" width="100%" />
 >
 > Multiple items can be selected, but only the Reassign action is
 > available. This is because we selected Disable bulk decisions.
@@ -229,9 +205,7 @@ managers.
 5.  Deselect all, and select one of the rows. The slide out panel will
     show the same information.
 
-> <img
-> src="../media/image273.png"
-> style="width:6.47292in;height:2.5044in" />
+> <img src="../media/image273.png" width="100%" />
 >
 > If you recall the Access Request labs where we exposed Entitlement
 > Bundles to be requestable, one lab allocated the first bundle and then
@@ -239,9 +213,7 @@ managers.
 > have the second bundle. We can see the violation further down the
 > slide-out panel.
 >
-> <img
-> src="../media/image4.png"
-> style="width:6.48125in;height:2.42082in" />
+> <img src="../media/image4.png" width="100%" />
 >
 > In this scenario the reviewer can see the two entitlements in conflict
 > in the same place and decide which access to revoke.
@@ -252,9 +224,7 @@ managers.
 > Notice that you cannot submit the approve action until you add a
 > justification.
 >
-> <img
-> src="../media/image37.png"
-> style="width:2.71458in;height:2.35777in" />
+> <img src="../media/image37.png" width="100%" />
 >
 > This is because of the **Justification required** option we set when
 > creating the campaign.
@@ -267,9 +237,7 @@ managers.
 9.  This will remove them from the Pending view. Go to the
     **<u>Closed</u>** view.
 
-> <img
-> src="../media/image149.png"
-> style="width:6.47292in;height:2.31176in" />
+> <img src="../media/image149.png" width="100%" />
 
 When this access is removed as a result of revoking the second
 entitlement bundle, the SoD conflict will be removed (and not show up on
@@ -283,9 +251,7 @@ conflict is still there.
 
 2.  Select this campaign.
 
-> <img
-> src="../media/image265.png"
-> style="width:6.48542in;height:5.55208in" />
+> <img src="../media/image265.png" width="100%" />
 >
 > Notice the Approved and Revoked counts. Revoked=1 as expected, but
 > Approved = 0. Why is this? Because we have a second level approver
@@ -302,18 +268,14 @@ conflict is still there.
 
 4.  Go to the SEcond-level reviews
 
-> <img
-> src="../media/image165.png"
-> style="width:6.46875in;height:0.87917in" />
+> <img src="../media/image165.png" width="100%" />
 >
 > You should see the one review item (of the SoD pair) that was approved
 > by the first-level reviewer.
 
 5.  **Approve** this access.
 
-> <img
-> src="../media/image165.png"
-> style="width:6.46875in;height:2.21543in" />
+> <img src="../media/image165.png" width="100%" />
 
 6.  Return to the Okta Admin Console as the administrator and select the
     campaign as before (if you left it running in another window you may
@@ -321,9 +283,7 @@ conflict is still there.
 
 7.  Go to the **<u>Closed</u>** review items tab.
 
-> <img
-> src="../media/image275.png"
-> style="width:6.48125in;height:2.70052in" />
+> <img src="../media/image275.png" width="100%" />
 >
 > You should see both entitlement reviews that were in the SOD CONFLICT
 > showing. One should be shown as approved by the second-level reviewer.
@@ -338,17 +298,13 @@ conflict is still there.
 10. Find the user assigned to the application that was just reviewed and
     **View access details**.
 
-> <img
-> src="../media/image251.png"
-> style="width:4.4706in;height:4.95625in" />
+> <img src="../media/image251.png" width="100%" />
 >
 > You should only see one entitlement bundle on the user.
 
 11. Go to the **<u>Assignment History</u>** tab.
 
-> <img
-> src="../media/image55.png"
-> style="width:4.49637in;height:4.23542in" />
+> <img src="../media/image55.png" width="100%" />
 >
 > You should see where the second bundle was removed as part of the
 > revocation of access in the campaign. The second entry shown above was
@@ -358,9 +314,7 @@ conflict is still there.
 12. Finally go to the **Okta System Log** entries for this user. You
     should see an event where the entitlements were updated.
 
-> <img
-> src="../media/image241.png"
-> style="width:6.45625in;height:3.69889in" />
+> <img src="../media/image241.png" width="100%" />
 >
 > The recent event, a resource.user_entitlements.update event, is for
 > removing the access. If you drill into the event you will see in the

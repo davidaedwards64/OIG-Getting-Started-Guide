@@ -25,9 +25,7 @@ automatically assigned to the original task assignee's manager.
 Both of these settings can be controlled from the **Identity Governance
 \> Settings** page.
 
-<img
-src="../media/image196.png"
-style="width:7in;height:3.58333in" />
+<img src="../media/image196.png" width="100%" />
 
 ### Collections
 

@@ -6,9 +6,7 @@ campaigns in the Access Certification section of the guide. There are
 two additional features that may be useful: Preconfigured campaigns and
 Security access reviews.
 
-<img
-src="../media/image31.png"
-style="width:7in;height:0.83333in" />.
+<img src="../media/image31.png" width="100%" />.
 
 ### Preconfigured Campaigns
 
@@ -29,9 +27,7 @@ There are currently two that will show depending on your environment:
   you're subscribed to Okta Identity Governance and are signed in to the
   Admin Console as a super admin.
 
-<img
-src="../media/image245.png"
-style="width:7in;height:1.97222in" />
+<img src="../media/image245.png" width="100%" />
 
 With the inactive users campaign, you may see recommendations from Okta
 on the Access Certifications page or the Assignments tab for an app to
@@ -53,9 +49,7 @@ trigger them automatically as a response to specific security events.
 This allows you to investigate access anomalies, confirm that access is
 appropriate, and revoke it temporarily or permanently if necessary.
 
-<img
-src="../media/image189.png"
-style="width:7in;height:5.22222in" />
+<img src="../media/image189.png" width="100%" />
 
 These could be used as part of an incident response against specific
 users rather than scheduled campaigns.

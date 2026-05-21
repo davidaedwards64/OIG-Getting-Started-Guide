@@ -28,9 +28,7 @@ We first want to look at the default SoD checking behaviour.
 3.  Click the access level you didn’t select in the previous lab. You
     should see a Conflict Details message appear to the right.
 
-> <img
-> src="../media/image11.png"
-> style="width:6.47292in;height:2.95712in" />
+> <img src="../media/image11.png" width="100%" />
 >
 > The access is blocked and you cannot submit the request.
 
@@ -63,9 +61,7 @@ To update the SoD rule behaviour:
 
 10. Click on the **Allow requests with custom settings** option.
 
-> <img
-> src="../media/image237.png"
-> style="width:6.48125in;height:4.21474in" />
+> <img src="../media/image237.png" width="100%" />
 >
 > This option allows the SoD violation, but can either run a separate
 > approval sequence (perhaps you want to have an additional level of
@@ -76,9 +72,7 @@ To update the SoD rule behaviour:
 11. Click on the **Allow requests** setting (the custom settings
     disappears) and click the **Save** button.
 
-> <img
-> src="../media/image291.png"
-> style="width:6.47292in;height:2.81264in" />
+> <img src="../media/image291.png" width="100%" />
 
 There is also a setting to allow requests on behalf of someone else.
 When enabled it can be set to only allow managers to request on behalf
@@ -101,9 +95,7 @@ Try requesting access again:
 
 15. Select the other access again
 
-> <img
-> src="../media/image72.png"
-> style="width:6.48125in;height:4.35941in" />
+> <img src="../media/image72.png" width="100%" />
 >
 > The **Conflict Details** are now a warning and the **Business
 > Justification** question is shown.
@@ -118,9 +110,7 @@ Approval Processing
 
 18. Select the new request.
 
-> <img
-> src="../media/image283.png"
-> style="width:6.48958in;height:3.27376in" />
+> <img src="../media/image283.png" width="100%" />
 >
 > The request flags that there is a Separation of duties conflict at the
 > top so that the approver can see there is risk associated with the
@@ -142,9 +132,7 @@ Approval Processing
 
 22. Click the **Approve** button.
 
-> <img
-> src="../media/image236.png"
-> style="width:6.48125in;height:2.39189in" />
+> <img src="../media/image236.png" width="100%" />
 
 #### Confirm Additional Access Added
 
@@ -155,9 +143,7 @@ Approval Processing
 25. On the **<u>Assignments</u>** tab, find the contractor, select the
     **more actions** icon and the **View access details** option.
 
-> <img
-> src="../media/image154.png"
-> style="width:5.0625in;height:4.89654in" />
+> <img src="../media/image154.png" width="100%" />
 >
 > You should see the new entitlement bundle has been added (in our case
 > both Building Access = Head Office and Privileged Access = Doc

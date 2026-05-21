@@ -14,9 +14,7 @@ To find the standard OIG reports:
 
 3.  Scroll down to find the three OIG report sections mentioned above..
 
-> <img
-> src="../media/image62.png"
-> style="width:6.46458in;height:4.14618in" />
+> <img src="../media/image62.png" width="100%" />
 
 From here we can run the reports.
 
@@ -30,9 +28,7 @@ User App Access Report
 1.  Click on the **<u>User App Access</u>** report. It may take a few
     seconds to fill the table.
 
-> <img
-> src="../media/image102.png"
-> style="width:6.48958in;height:4.50987in" />
+> <img src="../media/image102.png" width="100%" />
 >
 > This report shows all users and their app accesses. It sorts by
 > application by default.
@@ -53,26 +49,20 @@ User App Access Report
 3.  Set a filter, such as **Field** ***User fullname***, **Operator**
     ***equals***, and **Value** Peter Programmer (or one of your users).
 
-> <img
-> src="../media/image112.png"
-> style="width:6.46875in;height:1.01042in" />
+> <img src="../media/image112.png" width="100%" />
 >
 > Notice that you have a range of fields you can use, and you can have
 > multiple filters (combined with an AND).
 
 4.  Click the **Apply** button.
 
-> <img
-> src="../media/image19.png"
-> style="width:6.47292in;height:4.12263in" />
+> <img src="../media/image19.png" width="100%" />
 >
 > The filter is shown and the filtered list presented.
 
 5.  Click the **Export** button to see the export options.
 
-> <img
-> src="../media/image120.png"
-> style="width:2.48087in;height:1.66875in" />
+> <img src="../media/image120.png" width="100%" />
 >
 > The filtered report can be exported as a CSV file or a CSV file zipped
 > in GZIP format. There is no PDF export option.
@@ -80,17 +70,13 @@ User App Access Report
 6.  Click the **CSV Export** option to download the file. Click the
     Dismiss button on the confirmation dialog.
 
-> <img
-> src="../media/image229.png"
-> style="width:4.49113in;height:1.84598in" />
+> <img src="../media/image229.png" width="100%" />
 >
 > For the report to be downloaded directly, you need to allow pop-ups.
 
 7.  Open the CSV file and check its contents match the report.
 
-> <img
-> src="../media/image178.png"
-> style="width:6.46042in;height:0.83333in" />
+> <img src="../media/image178.png" width="100%" />
 >
 > You will see that the report contains a lot more information,
 > particularly about the user, than was shown online.
@@ -106,9 +92,7 @@ because of the way the data is stored and accessed.
 
 9.  Click on the **<u>Past Access Requests (Conditions)</u>** report.
 
-> <img
-> src="../media/image86.png"
-> style="width:6.46458in;height:3.93455in" />
+> <img src="../media/image86.png" width="100%" />
 >
 > The report shows all access request conditions run for all users..
 >
@@ -143,9 +127,7 @@ because of the way the data is stored and accessed.
 
 14. Click on the **<u>User Entitlements</u>** report.
 
-> <img
-> src="../media/image48.png"
-> style="width:6.46458in;height:3.45355in" />
+> <img src="../media/image48.png" width="100%" />
 >
 > This report is focusing on the application entitlements. It shows the
 > app, entitlement name and value, whether it was a group or individual
@@ -178,9 +160,7 @@ these reports.
 1.  In the **Reports** view, click on the **<u>Past Campaign
     Summary</u>** report.
 
-> <img
-> src="../media/image159.png"
-> style="width:6.48125in;height:4.50408in" />
+> <img src="../media/image159.png" width="100%" />
 >
 > This report has a row for each campaign run. You can see in the above
 > example there are campaigns from the two access certification labs
@@ -197,9 +177,7 @@ these reports.
 
 3.  Click the **Past Campaign Details** report.
 
-> <img
-> src="../media/image27.png"
-> style="width:6.47773in;height:4.93542in" />
+> <img src="../media/image27.png" width="100%" />
 >
 > This shows every review item for every campaign that has been run (and
 > filtering results may be appropriate).
@@ -223,16 +201,12 @@ Audit Reports.
 1.  In the **Reports** view, click on the **<u>Recent
     Unassignments</u>** report.
 
-> <img
-> src="../media/image282.png"
-> style="width:6.46875in;height:1.875in" />
+> <img src="../media/image282.png" width="100%" />
 >
 > As you can see this is actually a System Log report for the eventType
 > application.user_membership.remove.
 >
-> <img
-> src="../media/image223.png"
-> style="width:6.47292in;height:3.1594in" />
+> <img src="../media/image223.png" width="100%" />
 >
 > You could review the events in the UI, or use the Download CSV link to
 > download and analyse in a spreadsheet tool. However the report does

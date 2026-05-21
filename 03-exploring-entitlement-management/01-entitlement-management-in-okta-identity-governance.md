@@ -21,9 +21,7 @@ integrations to standard Okta with Lifecycle Management.
 
 The following diagram shows the major components and data objects.
 
-<img
-src="../media/image202.png"
-style="width:7in;height:3.31944in" />
+<img src="../media/image202.png" width="100%" />
 
 The main component of OIG Cloud Entitlement Management is the new
 **Governance Engine**. When an Okta Application has the Governance
