@@ -52,9 +52,6 @@ To create a dummy SCIM app:
 
 This application is now ready to assign entitlements to.
 
-\
--
-
 ---
 
 <sub>[Appendix B - Configure the Access Requests Platform for Request Types →](02-appendix-b---configure-the-access-requests-platform-for-request-types.md)</sub>

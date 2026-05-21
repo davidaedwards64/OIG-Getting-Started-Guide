@@ -302,9 +302,6 @@ can monitor and manage the conditions.
 The following labs will expand on this to look at SoD checking on
 entitlements in Access Requests.
 
-\
--
-
 ---
 
 <sub>[← Lab 2.1 - Request Conditions with Applications and Groups](03-lab-21---request-conditions-with-applications-and-groups.md) | [Lab 2.3 - Request Conditions with SoD Checking →](05-lab-23---request-conditions-with-sod-checking.md)</sub>
