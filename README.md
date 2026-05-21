@@ -1,6 +1,4 @@
-Okta Product Acceleration Team
-
-Overview
+# Overview
 
 So, you’ve received the Okta Identity Governance package at your
 doorstep, opened the box up and found a bunch of parts, instructions in
