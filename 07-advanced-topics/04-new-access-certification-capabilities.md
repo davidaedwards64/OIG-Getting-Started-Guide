@@ -56,4 +56,4 @@ users rather than scheduled campaigns.
 
 ---
 
-[← Access Requests Integrations (Chat and Ticketing)](03-access-requests-integrations-chat-and-ticketing.md) | [Workflows Integrations →](05-workflows-integrations.md)
+<sub>[← Access Requests Integrations (Chat and Ticketing)](03-access-requests-integrations-chat-and-ticketing.md) | [Workflows Integrations →](05-workflows-integrations.md)</sub>

@@ -85,4 +85,4 @@ API</u>](https://developer.okta.com/docs/api/iga/).
 
 ---
 
-[Introduction to the Labs →](02-introduction-to-the-labs.md)
+<sub>[Introduction to the Labs →](02-introduction-to-the-labs.md)</sub>

@@ -10,4 +10,4 @@ environment needs to be in to walk through the lab sections.
 
 ---
 
-[Back to Overview](../README.md)
+<sub>[Back to Overview](../README.md)</sub>

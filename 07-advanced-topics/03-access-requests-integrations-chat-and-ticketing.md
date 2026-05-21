@@ -60,4 +60,4 @@ internet looking at servicenow and Jira integration with OIG and Okta.
 
 ---
 
-[← Governance Object Management and Settings](02-governance-object-management-and-settings.md) | [New Access Certification Capabilities →](04-new-access-certification-capabilities.md)
+<sub>[← Governance Object Management and Settings](02-governance-object-management-and-settings.md) | [New Access Certification Capabilities →](04-new-access-certification-capabilities.md)</sub>

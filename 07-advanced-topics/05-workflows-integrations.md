@@ -74,4 +74,4 @@ There are many more examples that can be found on the internet.
 
 ---
 
-[← New Access Certification Capabilities](04-new-access-certification-capabilities.md) | [Identity Governance for Other Okta Products →](06-identity-governance-for-other-okta-products.md)
+<sub>[← New Access Certification Capabilities](04-new-access-certification-capabilities.md) | [Identity Governance for Other Okta Products →](06-identity-governance-for-other-okta-products.md)</sub>

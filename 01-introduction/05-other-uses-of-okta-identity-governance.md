@@ -13,4 +13,4 @@ feature leverages both access requests and access certification.
 
 ---
 
-[← Integrations with Okta Identity Governance](04-integrations-with-okta-identity-governance.md)
+<sub>[← Integrations with Okta Identity Governance](04-integrations-with-okta-identity-governance.md)</sub>

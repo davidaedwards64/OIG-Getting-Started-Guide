@@ -71,4 +71,4 @@ components for asynchronous notifications.
 
 ---
 
-[← What is Okta Identity Governance?](01-what-is-okta-identity-governance.md) | [Users, Groups and Entitlements →](03-users-groups-and-entitlements.md)
+<sub>[← What is Okta Identity Governance?](01-what-is-okta-identity-governance.md) | [Users, Groups and Entitlements →](03-users-groups-and-entitlements.md)</sub>

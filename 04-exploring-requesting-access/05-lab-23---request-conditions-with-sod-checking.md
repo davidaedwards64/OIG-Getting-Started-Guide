@@ -160,4 +160,4 @@ Request Types.
 
 ---
 
-[← Lab 2.2 - Request Conditions with Application Entitlements](04-lab-22---request-conditions-with-application-entitlements.md) | [Lab 2.4 - Request Types for Complex Requirements →](06-lab-24---request-types-for-complex-requirements.md)
+<sub>[← Lab 2.2 - Request Conditions with Application Entitlements](04-lab-22---request-conditions-with-application-entitlements.md) | [Lab 2.4 - Request Types for Complex Requirements →](06-lab-24---request-types-for-complex-requirements.md)</sub>

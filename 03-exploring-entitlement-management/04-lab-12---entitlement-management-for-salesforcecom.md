@@ -352,4 +352,4 @@ Guide.
 
 ---
 
-[← Lab 1.1 - BYO Entitlement Management](03-lab-11---byo-entitlement-management.md)
+<sub>[← Lab 1.1 - BYO Entitlement Management](03-lab-11---byo-entitlement-management.md)</sub>

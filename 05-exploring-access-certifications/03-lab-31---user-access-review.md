@@ -456,4 +456,4 @@ campaign with entitlements.
 
 ---
 
-[← Introduction to the Labs](02-introduction-to-the-labs.md) | [Lab 3.2 - Resource Campaign with Entitlements →](04-lab-32---resource-campaign-with-entitlements.md)
+<sub>[← Introduction to the Labs](02-introduction-to-the-labs.md) | [Lab 3.2 - Resource Campaign with Entitlements →](04-lab-32---resource-campaign-with-entitlements.md)</sub>

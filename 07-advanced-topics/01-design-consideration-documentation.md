@@ -67,4 +67,4 @@ design.
 
 ---
 
-[Governance Object Management and Settings →](02-governance-object-management-and-settings.md)
+<sub>[Governance Object Management and Settings →](02-governance-object-management-and-settings.md)</sub>

@@ -47,4 +47,4 @@ entitlements).
 
 ---
 
-[← Access Certifications in Okta Identity Governance](01-access-certifications-in-okta-identity-governance.md) | [Lab 3.1 - User Access Review →](03-lab-31---user-access-review.md)
+<sub>[← Access Certifications in Okta Identity Governance](01-access-certifications-in-okta-identity-governance.md) | [Lab 3.1 - User Access Review →](03-lab-31---user-access-review.md)</sub>

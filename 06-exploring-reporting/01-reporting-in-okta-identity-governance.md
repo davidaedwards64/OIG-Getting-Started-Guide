@@ -80,4 +80,4 @@ We will not run a lab on this.
 
 ---
 
-[Introduction to the Labs →](02-introduction-to-the-labs.md)
+<sub>[Introduction to the Labs →](02-introduction-to-the-labs.md)</sub>

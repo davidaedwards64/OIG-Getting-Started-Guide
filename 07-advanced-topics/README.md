@@ -20,4 +20,4 @@ where to find out more information. We also mention a bit about design.
 
 ---
 
-[Back to Overview](../README.md)
+<sub>[Back to Overview](../README.md)</sub>

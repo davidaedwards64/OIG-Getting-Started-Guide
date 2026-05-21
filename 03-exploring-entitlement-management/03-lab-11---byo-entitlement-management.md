@@ -397,4 +397,4 @@ Guide.
 
 ---
 
-[← Introduction to the Labs](02-introduction-to-the-labs.md) | [Lab 1.2 - Entitlement Management for Salesforce.com →](04-lab-12---entitlement-management-for-salesforcecom.md)
+<sub>[← Introduction to the Labs](02-introduction-to-the-labs.md) | [Lab 1.2 - Entitlement Management for Salesforce.com →](04-lab-12---entitlement-management-for-salesforcecom.md)</sub>

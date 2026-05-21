@@ -265,4 +265,4 @@ type.
 
 ---
 
-[← Appendix A - Create a Dummy SCIM Application](01-appendix-a---create-a-dummy-scim-application.md)
+<sub>[← Appendix A - Create a Dummy SCIM Application](01-appendix-a---create-a-dummy-scim-application.md)</sub>

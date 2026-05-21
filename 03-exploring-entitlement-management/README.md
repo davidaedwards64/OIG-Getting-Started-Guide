@@ -23,4 +23,4 @@ apps</u>](https://help.okta.com/oie/en-us/content/topics/identity-governance/em/
 
 ---
 
-[Back to Overview](../README.md)
+<sub>[Back to Overview](../README.md)</sub>

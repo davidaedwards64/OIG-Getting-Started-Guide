@@ -138,4 +138,4 @@ Conditions.
 
 ---
 
-[Introduction to the Labs →](02-introduction-to-the-labs.md)
+<sub>[Introduction to the Labs →](02-introduction-to-the-labs.md)</sub>

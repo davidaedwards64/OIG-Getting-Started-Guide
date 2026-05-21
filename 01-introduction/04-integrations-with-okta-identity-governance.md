@@ -37,4 +37,4 @@ in OIG and Okta leverage email.
 
 ---
 
-[← Users, Groups and Entitlements](03-users-groups-and-entitlements.md) | [Other Uses of Okta Identity Governance →](05-other-uses-of-okta-identity-governance.md)
+<sub>[← Users, Groups and Entitlements](03-users-groups-and-entitlements.md) | [Other Uses of Okta Identity Governance →](05-other-uses-of-okta-identity-governance.md)</sub>

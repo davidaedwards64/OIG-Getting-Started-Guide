@@ -33,4 +33,4 @@ The OIG product page is
 
 ---
 
-[Architectural Overview of Okta Identity Governance →](02-architectural-overview-of-okta-identity-governance.md)
+<sub>[Architectural Overview of Okta Identity Governance →](02-architectural-overview-of-okta-identity-governance.md)</sub>

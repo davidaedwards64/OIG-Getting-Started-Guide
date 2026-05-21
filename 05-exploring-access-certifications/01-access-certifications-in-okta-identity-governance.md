@@ -50,4 +50,4 @@ Certification</u>](https://support.okta.com/help/s/article/exploring-enhanced-gr
 
 ---
 
-[Introduction to the Labs →](02-introduction-to-the-labs.md)
+<sub>[Introduction to the Labs →](02-introduction-to-the-labs.md)</sub>

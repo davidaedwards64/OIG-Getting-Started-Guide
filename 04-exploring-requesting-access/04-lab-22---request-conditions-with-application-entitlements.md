@@ -307,4 +307,4 @@ entitlements in Access Requests.
 
 ---
 
-[← Lab 2.1 - Request Conditions with Applications and Groups](03-lab-21---request-conditions-with-applications-and-groups.md) | [Lab 2.3 - Request Conditions with SoD Checking →](05-lab-23---request-conditions-with-sod-checking.md)
+<sub>[← Lab 2.1 - Request Conditions with Applications and Groups](03-lab-21---request-conditions-with-applications-and-groups.md) | [Lab 2.3 - Request Conditions with SoD Checking →](05-lab-23---request-conditions-with-sod-checking.md)</sub>

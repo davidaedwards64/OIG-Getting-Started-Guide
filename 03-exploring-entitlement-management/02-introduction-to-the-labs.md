@@ -45,4 +45,4 @@ management and Salesforce.com for app entitlement management examples.
 
 ---
 
-[← Entitlement Management in Okta Identity Governance](01-entitlement-management-in-okta-identity-governance.md) | [Lab 1.1 - BYO Entitlement Management →](03-lab-11---byo-entitlement-management.md)
+<sub>[← Entitlement Management in Okta Identity Governance](01-entitlement-management-in-okta-identity-governance.md) | [Lab 1.1 - BYO Entitlement Management →](03-lab-11---byo-entitlement-management.md)</sub>

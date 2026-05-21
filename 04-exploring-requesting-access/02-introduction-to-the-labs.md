@@ -83,4 +83,4 @@ the docs.
 
 ---
 
-[← Access Requests in Okta Identity Governance](01-access-requests-in-okta-identity-governance.md) | [Lab 2.1 - Request Conditions with Applications and Groups →](03-lab-21---request-conditions-with-applications-and-groups.md)
+<sub>[← Access Requests in Okta Identity Governance](01-access-requests-in-okta-identity-governance.md) | [Lab 2.1 - Request Conditions with Applications and Groups →](03-lab-21---request-conditions-with-applications-and-groups.md)</sub>

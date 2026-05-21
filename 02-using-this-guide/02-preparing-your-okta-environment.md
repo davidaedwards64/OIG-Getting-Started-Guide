@@ -157,4 +157,4 @@ these labs).
 
 ---
 
-[← Using this Guide](01-using-this-guide.md)
+<sub>[← Using this Guide](01-using-this-guide.md)</sub>

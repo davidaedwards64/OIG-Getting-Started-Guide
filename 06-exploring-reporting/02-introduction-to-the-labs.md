@@ -29,4 +29,4 @@ data sync has not run, the campaign reports may not show it).
 
 ---
 
-[← Reporting in Okta Identity Governance](01-reporting-in-okta-identity-governance.md) | [Lab 4.1 - Explore Standard OIG Reports →](03-lab-41---explore-standard-oig-reports.md)
+<sub>[← Reporting in Okta Identity Governance](01-reporting-in-okta-identity-governance.md) | [Lab 4.1 - Explore Standard OIG Reports →](03-lab-41---explore-standard-oig-reports.md)</sub>

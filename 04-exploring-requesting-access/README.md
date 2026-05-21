@@ -15,4 +15,4 @@ then some labs to walk through the features.
 
 ---
 
-[Back to Overview](../README.md)
+<sub>[Back to Overview](../README.md)</sub>

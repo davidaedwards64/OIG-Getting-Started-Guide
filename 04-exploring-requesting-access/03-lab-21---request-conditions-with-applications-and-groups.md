@@ -593,4 +593,4 @@ The following labs will expand on this to look at entitlements on apps.
 
 ---
 
-[← Introduction to the Labs](02-introduction-to-the-labs.md) | [Lab 2.2 - Request Conditions with Application Entitlements →](04-lab-22---request-conditions-with-application-entitlements.md)
+<sub>[← Introduction to the Labs](02-introduction-to-the-labs.md) | [Lab 2.2 - Request Conditions with Application Entitlements →](04-lab-22---request-conditions-with-application-entitlements.md)</sub>

@@ -589,4 +589,4 @@ many more articles and examples available on the internet.
 
 ---
 
-[← Lab 2.3 - Request Conditions with SoD Checking](05-lab-23---request-conditions-with-sod-checking.md)
+<sub>[← Lab 2.3 - Request Conditions with SoD Checking](05-lab-23---request-conditions-with-sod-checking.md)</sub>

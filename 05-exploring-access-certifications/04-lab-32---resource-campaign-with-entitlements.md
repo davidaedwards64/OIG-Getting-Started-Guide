@@ -337,4 +337,4 @@ certification with OIG and extending them through Workflows and APIs.
 
 ---
 
-[← Lab 3.1 - User Access Review](03-lab-31---user-access-review.md)
+<sub>[← Lab 3.1 - User Access Review](03-lab-31---user-access-review.md)</sub>

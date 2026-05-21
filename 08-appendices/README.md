@@ -13,4 +13,4 @@ The appendices:
 
 ---
 
-[Back to Overview](../README.md)
+<sub>[Back to Overview](../README.md)</sub>

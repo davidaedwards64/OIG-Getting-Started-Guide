@@ -33,4 +33,4 @@ This concludes this guide.
 
 ---
 
-[← Workflows Integrations](05-workflows-integrations.md)
+<sub>[← Workflows Integrations](05-workflows-integrations.md)</sub>

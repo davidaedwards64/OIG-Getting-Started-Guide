@@ -62,4 +62,4 @@ The OIG product documentation can be found at:
 
 ---
 
-[Preparing Your Okta Environment →](02-preparing-your-okta-environment.md)
+<sub>[Preparing Your Okta Environment →](02-preparing-your-okta-environment.md)</sub>

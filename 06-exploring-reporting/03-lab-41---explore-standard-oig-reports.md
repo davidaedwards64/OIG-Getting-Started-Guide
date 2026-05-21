@@ -220,4 +220,4 @@ organisation.
 
 ---
 
-[← Introduction to the Labs](02-introduction-to-the-labs.md) | [Lab 4.2 - Campaign Audit Reports →](04-lab-42---campaign-audit-reports.md)
+<sub>[← Introduction to the Labs](02-introduction-to-the-labs.md) | [Lab 4.2 - Campaign Audit Reports →](04-lab-42---campaign-audit-reports.md)</sub>

@@ -20,4 +20,4 @@ Management and Okta Workflows.
 
 ---
 
-[Back to Overview](../README.md)
+<sub>[Back to Overview](../README.md)</sub>

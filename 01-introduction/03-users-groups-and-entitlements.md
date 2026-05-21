@@ -39,4 +39,4 @@ controls.
 
 ---
 
-[← Architectural Overview of Okta Identity Governance](02-architectural-overview-of-okta-identity-governance.md) | [Integrations with Okta Identity Governance →](04-integrations-with-okta-identity-governance.md)
+<sub>[← Architectural Overview of Okta Identity Governance](02-architectural-overview-of-okta-identity-governance.md) | [Integrations with Okta Identity Governance →](04-integrations-with-okta-identity-governance.md)</sub>

@@ -89,4 +89,4 @@ then used in access requests or access certification campaigns.
 
 ---
 
-[← Design Consideration Documentation](01-design-consideration-documentation.md) | [Access Requests Integrations (Chat and Ticketing) →](03-access-requests-integrations-chat-and-ticketing.md)
+<sub>[← Design Consideration Documentation](01-design-consideration-documentation.md) | [Access Requests Integrations (Chat and Ticketing) →](03-access-requests-integrations-chat-and-ticketing.md)</sub>
